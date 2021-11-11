@@ -1,0 +1,15 @@
+#!/bin/bash
+
+curl -s http://wttr.in/Zagreb?format="%t+%p+%P" 2>&1 > /tmp/weather_report
+
+w=$(cat /tmp/weather_report)
+
+if echo "$w" | grep -ie 'Unknown\|Sorry' >/dev/null; then
+
+ echo "Unknown"
+
+else 
+
+ echo "$w"
+
+fi
