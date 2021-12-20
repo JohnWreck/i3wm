@@ -2,6 +2,7 @@
 
 mv $HOME/.bashrc $HOME/.bashrc.bak 2>/dev/null 
 #mv $HOME/.config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml.bak 2>/dev/null 
+mv $HOME/.config/kitty $HOME/.config/kitty.bak 2>/dev/null 
 mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/init.vim.bak 2>/dev/null 
 mv $HOME/.config/i3/config $HOME/.config/i3/config.bak 2>/dev/null 
 mv $HOME/.config/dunst/ $HOME/.config/dunst.bak/ 2>/dev/null 
@@ -19,6 +20,7 @@ mkdir $HOME/.config/dunst
 
 ln -s $HOME/.dotfiles/.bashrc $HOME/.bashrc
 #ln -s $HOME/.dotfiles/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
+ln -s $HOME/.dotfiles/kitty $HOME/.config/kitty
 ln -s $HOME/.dotfiles/nvim/init.vim $HOME/.config/nvim/init.vim 
 ln -s $HOME/.dotfiles/i3/config $HOME/.config/i3/config 
 ln -s $HOME/.dotfiles/.i3blocks.conf $HOME/.i3blocks.conf 
