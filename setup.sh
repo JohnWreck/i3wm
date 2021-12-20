@@ -5,7 +5,7 @@ mv $HOME/.bashrc $HOME/.bashrc.bak 2>/dev/null
 mv $HOME/.config/kitty $HOME/.config/kitty.bak 2>/dev/null 
 mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/init.vim.bak 2>/dev/null 
 mv $HOME/.config/i3/config $HOME/.config/i3/config.bak 2>/dev/null 
-mv $HOME/.config/dunst/ $HOME/.config/dunst.bak/ 2>/dev/null 
+mv $HOME/.config/dunst $HOME/.config/dunst.bak 2>/dev/null 
 mv $HOME/.scripts/ $HOME/.scripts.bak/ 2>/dev/null
 mv $HOME/.i3blocks.conf $HOME/.i3blocks.conf.bak 2>/dev/null 
 mv $HOME/.scripts/ $HOME/.scripts.bak/ 2>/dev/null 
