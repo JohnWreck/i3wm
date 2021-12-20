@@ -122,7 +122,7 @@ set $ws14 "  "
 set $ws15 "  "
 
 assign [class="Firefox"] $ws7
-assign [class="Thunderbird"] $ws8
+assign [class="thunderbird"] $ws8
 assign [class="Steam"] $ws11
 assign [class="Lutris"] $ws12
 assign [class="Transmission-gtk"] $ws13
