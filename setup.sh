@@ -9,14 +9,16 @@ mv $HOME/.config/dunst $HOME/.config/dunst.bak 2>/dev/null
 mv $HOME/.scripts/ $HOME/.scripts.bak/ 2>/dev/null
 mv $HOME/.i3blocks.conf $HOME/.i3blocks.conf.bak 2>/dev/null 
 mv $HOME/.scripts/ $HOME/.scripts.bak/ 2>/dev/null 
-#mv $HOME/.icons/ $HOME/.icons.bak/ 2>/dev/null 
-#mv $HOME/.fonts/ $HOME/.fonts.bak/ 2>/dev/null 
+mv $HOME/.icons/ $HOME/.icons.bak/ 2>/dev/null 
+mv $HOME/.fonts/ $HOME/.fonts.bak/ 2>/dev/null 
 #
 echo "Backup done."
 
 #mkdir $HOME/.config/alacritty
-mkdir $HOME/.config/nvim
-mkdir $HOME/.config/dunst
+mkdir -p $HOME/.config/i3
+mkdir -p $HOME/.config/kitty
+mkdir -p $HOME/.config/nvim
+mkdir -p $HOME/.config/dunst
 
 ln -s $HOME/.dotfiles/.bashrc $HOME/.bashrc
 #ln -s $HOME/.dotfiles/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
