@@ -37,14 +37,14 @@ bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
-#bindsym $mod+Shift+Ctrl+p shutdown now
+bindsym $mod+Shift+Ctrl+p systemctl poweroff 
 
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+space exec rofi -show drun -show-icons
-bindsym $mod+Ctrl+space exec --no-startup-id xdg-open "$(locate "home/" | grep -v '/\.'| rofi -dmenu -i -p "search: ")"
-bindsym $mod+a exec "rofi -show window"
+#bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+space exec rofi -show drun -show-icons -font "Noto Sans 12"
+bindsym $mod+Ctrl+space exec --no-startup-id xdg-open "$(locate "home/" | grep -v '/\.'| rofi -dmenu -i -p "search: " -font "Noto Sans 12")"
+bindsym $mod+a exec "rofi -show window -font "Noto Sans 12" "
 #bindsym $mod+s exec --no-startup-id i3-dmenu-desktop
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -88,21 +88,20 @@ bindsym $mod+f fullscreen toggle
 
 ## change container layout (stacked, tabbed, toggle split)
 #bindsym $mod+s layout stacking
-bindsym $mod+t layout tabbed
-bindsym $mod+s layout toggle split
+bindsym $mod+s layout tabbed
+bindsym $mod+Shift+s layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-#bindsym $mod+c focus mode_toggle
+bindsym $mod+c focus mode_toggle
 
 # focus the parent container
 #bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
-#bindsym $mod+c focus child
 
 
 
@@ -174,10 +173,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        #bindsym j resize shrink width 10 px or 10 ppt
-        #bindsym k resize grow height 10 px or 10 ppt
-        #bindsym l resize shrink height 10 px or 10 ppt
-        #bindsym ccaron resize grow width 10 px or 10 ppt
+        bindsym l resize shrink width 5 px or 5 ppt
+        bindsym k resize grow height 5 px or 5 ppt
+        bindsym j resize shrink height 5 px or 5 ppt
+        bindsym h resize grow width 5 px or 5 ppt
 
         # same bindings, but for the arrow keys
         bindsym Right resize shrink width 5 px or 5 ppt
@@ -203,8 +202,8 @@ set $green-light	#00ff00
 set $green-dark		#808000
 set $gray-light		#D2DAD1
 set $gray-dark		#4b4b4b
-set $black		#000000
-set $white		#ffffff
+set $black		    #000000
+set $white		    #ffffff
 
 # Window colors
 #                       border          background      text            indicator
@@ -223,7 +222,7 @@ colors {
 #		background $bg-color
 #	    	separator #757575
 		#                  border       background      text
-		focused_workspace  $gray-dark   $gray-dark	$white
+		focused_workspace  $gray-dark   $gray-dark	    $white
 #		inactive_workspace 
 #		urgent_workspace  
 	}
@@ -232,13 +231,12 @@ colors {
 
 
 # Window border set to 1p
-new_window pixel 2
+new_window pixel 3
 
 #bindsym $mod+e exec /usr/bin/alacritty -e nnn -d
 #bindsym $mod+e exec --no-startup-id /usr/bin/alacritty -e ranger 
 bindsym $mod+Escape exec /usr/bin/i3lock --nofork -e -c 4b4b4b
 bindsym $mod+e exec --no-startup-id /usr/bin/thunar
-bindsym $mod+c exec  --no-startup-id /usr/bin/kitty -e cmus
 bindsym $mod+m exec  --no-startup-id /usr/bin/thunderbird
 bindsym $mod+b exec --no-startup-id /usr/bin/brave-browser
 bindsym Print exec --no-startup-id /usr/bin/flameshot gui
@@ -252,8 +250,8 @@ exec_always --no-startup-id feh --bg-scale $HOME/.wallpaper.jpg
 exec_always --no-startup-id picom
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 3%+ #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 3%- #decrease sound volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%- #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id amixer -D pulse sset Master toggle # mute sound
 
 
