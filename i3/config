@@ -37,7 +37,7 @@ bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
-bindsym $mod+Shift+Ctrl+p systemctl poweroff 
+#bindsym $mod+Shift+Ctrl+p shutdown now 
 
 
 # start dmenu (a program launcher)
@@ -113,7 +113,8 @@ set $ws5 "  "
 set $ws6 " 7 "
 set $ws7 " 8 "
 set $ws8 " 4 "
-set $ws9 "  "
+set $ws9 "  "
+set $ws0 "  "
 set $ws11 "  "
 set $ws12 "  "
 set $ws13 "  "
@@ -137,7 +138,7 @@ bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
+bindsym $mod+w workspace $ws9
 bindsym $mod+0 workspace $ws0
 
 bindsym $mod+Tab workspace next
@@ -153,7 +154,7 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+w move container to workspace $ws9; workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws0
 
 # reload the configuration file
@@ -277,4 +278,14 @@ workspace $ws5 output DP-0.1
 workspace $ws6 output DP-0.1
 workspace $ws7 output DP-0.1
 workspace $ws8 output DP-0.1
-workspace $ws9 output HDMI-2
+workspace $ws9 output DP-0.1
+workspace $ws0 output HDMI-2
+
+#Bind mouse button 2 to kill focused window
+bindsym --whole-window button2 kill 
+
+#Pop-ups control on fullscreen
+popup_during_fullscreen smart
+
+#Workspace back and forth
+workspace_auto_back_and_forth yes
