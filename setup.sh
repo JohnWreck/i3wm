@@ -33,3 +33,7 @@ ln -s $HOME/.dotfiles/.fonts $HOME/.fonts
 ln -s $HOME/.dotfiles/dunst/dunstrc $HOME/.config/dunst/dunstrc
 
 echo "Links done."
+
+#Create user dirs
+xdg-user-dirs-update
+
