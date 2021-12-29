@@ -1,9 +1,56 @@
 #!/usr/bin/env bash
 
+package=(
+arandr
+bc
+#bmon
+#calcurse
+#cmus
+curl
+dkms
+feh
+#file-roller
+firefox-esr
+#flameshot
+fonts-firacode
+gir1.2-gtop-2.0
+#grc
+#htop
+i3
+i3blocks
+#iotop
+kitty
+libnotify-bin
+lm-sensors
+locate
+lxappearance
+materia-gtk-theme
+#mpv
+#neovim
+network-manager-gnome
+#network-manager-openvpn-gnome
+#nmap
+nnn
+numlockx
+#p7zip
+#papirus-icon-theme
+picom
+#pulsemixer
+#remmina
+#remmina-plugin-rdp
+rofi
+#software-properties-common
+#speedtest-cli
+#sxiv
+#syncthing
+thunar
+#ufw
+#whois
+#wireshark
+xbacklight
+xinput
+xorg
+)
+
 apt update
-
-apt install xorg i3 i3blocks rofi lxappearance locate fonts-firacode feh picom kitty numlockx xbacklight gir1.2-gtop-2.0 lm-sensors bc curl firefox-esr materia-gtk-theme xinput network-manager-gnome network-manager-openvpn-gnome libnotify-bin arandr -y
-
-##Optional
-#apt install mpv cmus nnn neovim htop sxiv flameshot dkms software-properties-common speedtest-cli nmap wireshark bmon iotop pulsemixer p7zip thunar papirus-icon-theme remmina remmina-plugin-rdp whois syncthing grc ufw calcurse file-roller -y
-
+apt install ${package[*]}
