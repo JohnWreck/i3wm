@@ -35,6 +35,7 @@ numlockx
 ##p7zip
 ##papirus-icon-theme
 picom
+pulseaudio
 ##pulsemixer
 ##remmina
 ##remmina-plugin-rdp
@@ -43,6 +44,7 @@ rofi
 ##speedtest-cli
 ##sxiv
 ##syncthing
+##thunderbird
 thunar
 ##ufw
 ##whois
