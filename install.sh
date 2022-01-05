@@ -47,8 +47,9 @@ pulseaudio
 rofi
 ##software-properties-common
 ##speedtest-cli
+###subliminal
 ##sxiv
-##syncthing
+###syncthing
 ##thunderbird
 ##transmission
 thunar
