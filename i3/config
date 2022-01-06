@@ -237,7 +237,7 @@ new_window pixel 3
 
 #bindsym $mod+e exec /usr/bin/alacritty -e nnn -d
 #bindsym $mod+e exec --no-startup-id /usr/bin/alacritty -e ranger 
-bindsym $mod+Escape exec /usr/bin/i3lock --nofork -e -c 4b4b4b
+bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 4b4b4b
 bindsym $mod+e exec --no-startup-id /usr/bin/thunar
 bindsym $mod+m exec  --no-startup-id /usr/bin/thunderbird
 bindsym $mod+b exec --no-startup-id /usr/bin/brave-browser
@@ -283,7 +283,7 @@ workspace $ws9 output DP-0.1
 workspace $ws0 output HDMI-2
 
 #Bind mouse button 2 to kill focused window
-bindsym --whole-window button2 kill 
+#bindsym --whole-window button2 kill 
 
 #Pop-ups control on fullscreen
 popup_during_fullscreen smart
