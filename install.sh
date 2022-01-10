@@ -30,6 +30,7 @@ locate
 lxappearance
 materia-gtk-theme
 ##mpv
+ncdu
 ##neovim
 net-tools
 network-manager-gnome
@@ -45,6 +46,7 @@ pulseaudio
 ##remmina
 ##remmina-plugin-rdp
 rofi
+rsync
 ##software-properties-common
 ##speedtest-cli
 ###subliminal
