@@ -8,7 +8,7 @@ then
   if [[ $charge -lt 10 ]];
   then
     #color=#FF0000
-    notify-send "$(echo ":::::BATTERY LOW:::::";acpi -b)"
+    notify-send ":::::BATTERY LOW:::::" "$(acpi -b)"
     echo " "
   elif [[ $charge -lt 30 ]];
   then
@@ -30,5 +30,5 @@ else
 fi
 
 if [[ "$BLOCK_BUTTON" -eq 1 ]]; then 
-    notify-send "$(acpi -a;acpi -i)"
+    notify-send -t 10000 "BATTERY" "$(acpi -a;acpi -i)"
 fi
