@@ -9,21 +9,21 @@ then
   then
     #color=#FF0000
     notify-send ":::::BATTERY LOW:::::" "$(acpi -b)"
-    echo " "
+    echo " $charge%"
   elif [[ $charge -lt 30 ]];
   then
     #color=#FFAE00
-    echo " "
+    echo " $charge%"
   elif [[ $charge -lt 60 ]];
   then
     #color=#FFF600
-    echo " "
+    echo " $charge%"
   elif [[ $charge -lt 85 ]];
   then
     #color=#A8FF00
-    echo " "
+    echo " $charge%"
   else  
-    echo " "
+    echo " $charge%"
   fi
 else
   echo "" 
