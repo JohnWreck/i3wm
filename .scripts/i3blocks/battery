@@ -1,24 +1,34 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 charge=$(acpi -b | grep -oP "\d+%" | tr -d "%")
-status=$(acpi -b | awk '{print $3}')
-echo $charge%
-echo $charge%
-if [[ $status == Dis* ]];
+battstat=$(acpi -b | awk '{print $3}')
+
+if [[ $battstat == Dis* ]];
 then
-  if [[ $charge -lt 20 ]];
+  if [[ $charge -lt 10 ]];
   then
-    echo "#FF0000"
-  elif [[ $charge -lt 40 ]];
+    #color=#FF0000
+    notify-send "$(echo ":::::BATTERY LOW:::::";acpi -b)"
+    echo " "
+  elif [[ $charge -lt 30 ]];
   then
-    echo "#FFAE00"
+    #color=#FFAE00
+    echo " "
   elif [[ $charge -lt 60 ]];
   then
-    echo "#FFF600"
+    #color=#FFF600
+    echo " "
   elif [[ $charge -lt 85 ]];
   then
-    echo "#A8FF00"
+    #color=#A8FF00
+    echo " "
+  else  
+    echo " "
   fi
 else
-  echo "#AAFF00"
+  echo "" 
+fi
+
+if [[ "$BLOCK_BUTTON" -eq 1 ]]; then 
+    notify-send "$(acpi -a;acpi -i)"
 fi
