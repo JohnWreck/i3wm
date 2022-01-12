@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "$(lscpu | grep "CPU MHz" | awk '{print $3}' | cut -d"." -f1)""Mhz"
