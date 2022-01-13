@@ -16,6 +16,7 @@ firefox-esr
 ##flameshot
 fonts-firacode
 gir1.2-gtop-2.0
+##grabc
 ##grc
 ##htop
 i3

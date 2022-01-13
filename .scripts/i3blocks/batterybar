@@ -129,7 +129,7 @@ do
     fi
 
     if [[ "$BLOCK_BUTTON" -eq 1 ]]; then 
-        #message="$message ${statuses[$i]} <span foreground=\"$color\">${percentages[$i]}%${remainings[i]}</span>"
+       ## message="$message ${statuses[$i]} <span foreground=\"$color\">${percentages[$i]}%${remainings[i]}</span>"
        notify-send -t 10000 "BATTERY" "$(acpi -a;acpi -i)"
  
     fi
