@@ -108,27 +108,23 @@ bindsym $mod+c focus mode_toggle
 
 set $ws1 " 1 "
 set $ws2 " 2 "
-set $ws3 " 3 "
-set $ws4 "  "
-set $ws5 "  "
-set $ws6 " 7 "
-set $ws7 " 8 "
-set $ws8 " 4 "
+set $ws3 "  "
+set $ws4 "  "
+set $ws5 " 5 "
+set $ws6 " 6 "
+set $ws7 " 7 "
+set $ws8 " 8 "
 set $ws9 "  "
 set $ws0 "  "
-set $ws11 "  "
-set $ws12 "  "
+set $ws11 "  "
+set $ws12 "  "
 set $ws13 "  "
-set $ws14 "  "
-set $ws15 "  "
 
-assign [class="Brave-browser"] $ws4
-assign [class="thunderbird"] $ws5
+assign [class="Brave-browser"] $ws3
+assign [class="thunderbird"] $ws4
 assign [class="Steam"] $ws11
-assign [class="Lutris"] $ws12
-assign [class="Transmission-gtk"] $ws13
-assign [class="VirtualBox Manager"] $ws14
-assign [class="Lollypop"] $ws15
+assign [class="Transmission-gtk"] $ws12
+assign [class="VirtualBox Manager"] $ws13
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
