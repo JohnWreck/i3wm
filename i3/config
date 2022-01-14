@@ -122,9 +122,9 @@ set $ws13 "  "
 
 assign [class="Brave-browser"] $ws3
 assign [class="thunderbird"] $ws4
-assign [class="Steam"] $ws11
-assign [class="Transmission-gtk"] $ws12
-assign [class="VirtualBox Manager"] $ws13
+assign [class="VirtualBox Manager"] $ws11
+assign [class="Steam"] $ws12
+assign [class="Transmission-gtk"] $ws13
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
