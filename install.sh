@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 
 package=(
+#amd64-microcode
 arandr
 bc
 brightnessctl
+#bsdmainutils
 ##bmon
 ##calcurse
 cifs-utils
 ##cmus
+##cups
 curl
 dkms
 feh
@@ -48,13 +51,16 @@ pulseaudio
 ##remmina-plugin-rdp
 rofi
 rsync
+##seahorse
 ##software-properties-common
 ##speedtest-cli
 ###subliminal
 ##sxiv
 ###syncthing
 ##thunderbird
+###tlp
 ##transmission
+##ttf-mscorefonts-installer
 thunar
 ##ufw
 ##wavemon
