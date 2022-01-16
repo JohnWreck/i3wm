@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -s http://wttr.in/Zagreb?format="%t+%p+%P" 2>&1 > /tmp/weather_report
+curl -s http://wttr.in/~Croatia+Zagreb?format="%t+%p+%P" 2>&1 > /tmp/weather_report
 
 w=$(cat /tmp/weather_report)
 
