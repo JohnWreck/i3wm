@@ -27,6 +27,7 @@ i3blocks
 ##iotop
 ##iftop
 ##iperf3
+##iptraf-ng
 kitty
 libnotify-bin
 lm-sensors
@@ -36,6 +37,7 @@ materia-gtk-theme
 ##mpv
 ncdu
 ##neovim
+##nethogs
 net-tools
 network-manager-gnome
 ##network-manager-openvpn-gnome
