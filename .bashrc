@@ -125,6 +125,7 @@ fi
 #export TERM=screen-256color
 export VISUAL='/usr/bin/nvim'
 export EDITOR=$VISUAL
+export NNN_PLUG='f:finder;o:fzopen;p:mocplay;d:diffs;t:nmount;v:imgview'
 
 #Set keyboard speed
 xset r rate 200 40
