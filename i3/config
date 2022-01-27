@@ -257,6 +257,7 @@ bindsym $mod+Shift+a sticky toggle
 # Exec stuff
 exec --no-startup-id /usr/bin/megasync
 exec --no-startup-id nm-applet
+exec --no-startup-id alttab -d 2 -w 1 
 
 exec_always --no-startup-id feh --bg-scale $HOME/.wallpaper.jpg
 #exec_always --no-startup-id picom

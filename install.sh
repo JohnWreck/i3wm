@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 package=(
+alttab
 #amd64-microcode
 arandr
 bc
