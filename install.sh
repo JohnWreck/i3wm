@@ -48,6 +48,7 @@ numlockx
 ##p7zip-full
 ##papirus-icon-theme
 picom
+playerctl
 pulseaudio
 ##pulsemixer
 ##remmina
