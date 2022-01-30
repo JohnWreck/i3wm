@@ -5,6 +5,7 @@ alttab
 #amd64-microcode
 arandr
 bc
+bluez-tools
 brightnessctl
 #bsdmainutils
 ##bmon
@@ -50,9 +51,11 @@ numlockx
 picom
 playerctl
 pulseaudio
+pulseaudio-module-bluetooth
 ##pulsemixer
 ##remmina
 ##remmina-plugin-rdp
+rfkill
 rofi
 rsync
 ##seahorse
