@@ -256,7 +256,7 @@ bindsym $mod+Shift+a sticky toggle
 
 # Exec stuff
 
-exec --no-startup-id /usr/bin/cbatticon
+#exec --no-startup-id /usr/bin/cbatticon
 exec --no-startup-id /usr/bin/megasync
 exec --no-startup-id nm-applet
 exec --no-startup-id alttab -d 2 -w 1 
