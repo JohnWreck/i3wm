@@ -108,8 +108,8 @@ bindsym $mod+c focus mode_toggle
 
 set $ws1 " 1 "
 set $ws2 " 2 "
-set $ws3 "  "
-set $ws4 "  "
+set $ws3 " 3 "
+set $ws4 " 4 "
 set $ws5 " 5 "
 set $ws6 " 6 "
 set $ws7 "  "
@@ -228,7 +228,7 @@ bar {
 	status_command SCRIPT_DIR=$HOME/.scripts/i3blocks i3blocks
 
 colors {
-		background #282A2E
+        background #1A1D21
 #	    	separator #757575
 		#                  border       background      text
 		focused_workspace  $gray-dark   $gray-dark	    $white
@@ -256,12 +256,13 @@ bindsym $mod+Shift+a sticky toggle
 
 # Exec stuff
 
-#exec --no-startup-id /usr/bin/cbatticon
+exec --no-startup-id /usr/bin/cbatticon
 exec --no-startup-id /usr/bin/megasync
 exec --no-startup-id nm-applet
 exec --no-startup-id alttab -d 2 -w 1 
 
-exec_always --no-startup-id feh --bg-scale $HOME/.wallpaper.jpg
+#exec_always --no-startup-id feh --bg-scale $HOME/.wallpaper.jpg
+exec_always --no-startup-id /usr/bin/nitrogen --restore 
 exec_always --no-startup-id picom
 
 # Pulse Audio controls

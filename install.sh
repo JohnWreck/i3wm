@@ -21,8 +21,8 @@ firefox-esr
 ##flameshot
 fonts-firacode
 gir1.2-gtop-2.0
-##grabc
-##grc
+##gpick
+#grc
 ##htop
 i3
 i3blocks
@@ -43,6 +43,7 @@ ncdu
 net-tools
 network-manager-gnome
 ##network-manager-openvpn-gnome
+nitrogen
 ##nmap
 nnn
 numlockx
