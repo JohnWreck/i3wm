@@ -205,21 +205,22 @@ bindsym $mod+r mode "resize"
 
 #Set colors
 set $jellow-dark	#ffdd00
-set $orange-dark	#ff7700
+#set $orange-dark	#ff7700
+set $orange-dark	#ff6D00
 set $green-light	#00ff00
 #set $green-dark	#297E21
 set $green-dark		#808000
 set $gray-light		#D2DAD1
 set $gray-dark		#4b4b4b
-set $black		    #000000
-set $white		    #ffffff
+set $black		    #181818
+set $white		    #d0d0d0
 
 # Window colors
 #                       border          background      text            indicator
-client.focused          $gray-dark     	$gray-dark      $black          $jellow-dark
-client.unfocused        $gray-dark	    $black		    $gray-dark	    $black
-client.focused_inactive	$gray-dark	    $black		    $gray-dark	    $black
-client.urgent		    $black		    $black		    $black		    $black
+client.focused          $gray-dark     	$gray-dark      $orange-dark    $jellow-dark
+client.unfocused        $gray-dark	    $black		    $gray-dark	    $yellow-dark
+client.focused_inactive	$gray-dark	    $black		    $gray-dark	    $yellow-dark
+client.urgent		    $gray-dark		$black		    $green-dark 	$yellow-dark
 
 
 
@@ -228,12 +229,12 @@ bar {
 	status_command SCRIPT_DIR=$HOME/.scripts/i3blocks i3blocks
 
 colors {
-        background #1A1D21
-#	    	separator #757575
-		#                  border       background      text
-		focused_workspace  $gray-dark   $gray-dark	    $white
-#		inactive_workspace 
-#		urgent_workspace  
+        background #121212
+	   	separator #757575
+   	    #                  border       background      text
+   	    focused_workspace  $gray-dark   $gray-dark	    $white
+   #inactive_workspace 
+   #urgent_workspace  
 	}
 
 }
@@ -244,8 +245,8 @@ new_window pixel 3
 
 #bindsym $mod+e exec /usr/bin/alacritty -e nnn -d
 #bindsym $mod+e exec --no-startup-id /usr/bin/alacritty -e ranger 
-bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
 #bindsym $mod+e exec --no-startup-id /usr/bin/thunar
+bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
 bindsym $mod+e exec --no-startup-id /usr/bin/kitty -e nnn -d
 bindsym $mod+m exec  --no-startup-id /usr/bin/thunderbird
 bindsym $mod+b exec --no-startup-id /usr/bin/brave-browser
@@ -255,20 +256,18 @@ bindsym Print exec --no-startup-id /usr/bin/flameshot gui
 bindsym $mod+Shift+a sticky toggle
 
 # Exec stuff
-
 exec --no-startup-id /usr/bin/cbatticon
 exec --no-startup-id /usr/bin/megasync
 exec --no-startup-id nm-applet
 exec --no-startup-id alttab -d 2 -w 1 
 
-#exec_always --no-startup-id feh --bg-scale $HOME/.wallpaper.jpg
 exec_always --no-startup-id /usr/bin/nitrogen --restore 
 exec_always --no-startup-id picom
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%- #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id amixer -D pulse sset Master toggle # mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ 
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%-
+bindsym XF86AudioMute exec --no-startup-id amixer -D pulse sset Master toggle
 
 
 # Media player controls
