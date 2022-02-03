@@ -205,8 +205,8 @@ bindsym $mod+r mode "resize"
 
 #Set colors
 set $jellow-dark	#ffdd00
-#set $orange-dark	#ff7700
-set $orange-dark	#ff6D00
+#set $orange-dark	#ff6D00
+set $orange-dark	#ff9001
 set $green-light	#00ff00
 #set $green-dark	#297E21
 set $green-dark		#808000
