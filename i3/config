@@ -7,6 +7,8 @@
 for_window [class="Yad"] floating enable
 for_window [class="MEGAsync"] floating enable
 
+workspace_layout default
+
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
@@ -106,33 +108,22 @@ bindsym $mod+c focus mode_toggle
 
 
 
-set $ws1 " 1 "
-set $ws2 " 2 "
-set $ws3 " 3 "
-set $ws4 " 4 "
-set $ws5 " 5 "
-set $ws6 " 6 "
-set $ws7 "  "
-set $ws8 "  "
-set $ws9 "  "
-set $ws0 "  "
-set $ws11 "  "
-set $ws12 "  "
-set $ws13 "  "
+set $ws1 "  1  "
+set $ws2 "  2  "
+set $ws3 "  3  "
+set $ws4 "  4  "
+set $ws5 "  5  "
+set $ws6 "    "
+set $ws7 "    "
+set $ws8 "  8  "
+set $ws9 "    "
+set $ws0 "    "
+set $ws11 "    "
+set $ws12 "    "
+set $ws13 "    "
 
-#set $ws1 " 1 "
-#set $ws2 " 2 "
-#set $ws3 " 3 "
-#set $ws4 " 4 "
-#set $ws5 " 5 "
-#set $ws6 " 6 "
-#set $ws7 " 7 "
-#set $ws8 " 8 "
-#set $ws9 " 9 "
-#set $ws0 " 0 "
-
-assign [class="Brave-browser"] $ws7
-assign [class="thunderbird"] $ws8
+assign [class="Brave-browser"] $ws6
+assign [class="thunderbird"] $ws7
 assign [class="VirtualBox Manager"] $ws11
 assign [class="Steam"] $ws12
 assign [class="Transmission-gtk"] $ws13
@@ -205,10 +196,9 @@ bindsym $mod+r mode "resize"
 
 #Set colors
 set $jellow-dark	#ffdd00
-#set $orange-dark	#ff6D00
-set $orange-dark	#ff9001
+#set $orange-dark	#ff9001
+set $orange-dark	#ffaf00
 set $green-light	#00ff00
-#set $green-dark	#297E21
 set $green-dark		#808000
 set $gray-light		#D2DAD1
 set $gray-dark		#4b4b4b
@@ -217,7 +207,7 @@ set $white		    #d0d0d0
 
 # Window colors
 #                       border          background      text            indicator
-client.focused          $gray-dark     	$gray-dark      $orange-dark    $jellow-dark
+client.focused          $gray-dark     	$gray-dark      $orange-dark    $orange-dark
 client.unfocused        $gray-dark	    $black		    $gray-dark	    $yellow-dark
 client.focused_inactive	$gray-dark	    $black		    $gray-dark	    $yellow-dark
 client.urgent		    $gray-dark		$black		    $green-dark 	$yellow-dark
@@ -303,6 +293,3 @@ popup_during_fullscreen smart
 
 #Workspace back and forth
 workspace_auto_back_and_forth yes
-
-#Launch Polybar
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
