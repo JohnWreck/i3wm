@@ -249,10 +249,10 @@ bindsym $mod+Shift+a sticky toggle
 exec --no-startup-id /usr/bin/cbatticon
 exec --no-startup-id /usr/bin/megasync
 exec --no-startup-id nm-applet
-exec --no-startup-id alttab -d 2 -w 1 
 
 exec_always --no-startup-id /usr/bin/nitrogen --restore 
 exec_always --no-startup-id picom
+exec_always --no-startup-id alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#4b4b4b" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" 
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ 
