@@ -235,9 +235,9 @@ new_window pixel 4
 
 #bindsym $mod+e exec /usr/bin/alacritty -e nnn -d
 #bindsym $mod+e exec --no-startup-id /usr/bin/alacritty -e ranger 
-#bindsym $mod+e exec --no-startup-id /usr/bin/thunar
+bindsym $mod+e exec --no-startup-id /usr/bin/thunar
 bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
-bindsym $mod+e exec --no-startup-id /usr/bin/kitty -e nnn -d
+#bindsym $mod+e exec --no-startup-id /usr/bin/kitty -e nnn -d
 bindsym $mod+m exec  --no-startup-id /usr/bin/thunderbird
 bindsym $mod+b exec --no-startup-id /usr/bin/brave-browser
 bindsym $mod+n exec --no-startup-id /usr/bin/dunstctl close-all 
