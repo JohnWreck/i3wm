@@ -46,7 +46,7 @@ bindsym $mod+Shift+q kill
 #bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+space exec rofi -show drun -show-icons 
 #bindsym $mod+Ctrl+space exec --no-startup-id xdg-open "$(locate "home/" | grep -v '/\.'| rofi -dmenu -i -p "search ")"
-bindsym $mod+Ctrl+space exec --no-startup-id xdg-open "$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p "search ")"
+bindsym $mod+Shift+space exec --no-startup-id xdg-open "$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p "search ")"
 bindsym $mod+a exec rofi -show window -show-icons 
 #bindsym $mod+s exec --no-startup-id i3-dmenu-desktop
 # There also is the (new) i3-dmenu-desktop which only displays applications
@@ -95,7 +95,7 @@ bindsym $mod+s split v; layout tabbed
 bindsym $mod+Shift+s layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+f floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+c focus mode_toggle
