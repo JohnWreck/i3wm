@@ -143,14 +143,10 @@ alias YT="youtube-dl -x --audio-format mp3 --audio-quality 0"
 alias F="fzf -e --reverse | xargs -I {}  xdg-open {} "
 alias V="fzf -e --reverse | xargs -I {} nvim {} "
 alias P="sxiv *"
-alias C="curl -L covid19.trackercli.com/hr"
 alias R="curl usd.rate.sx"
-alias Rd="curl usd.rate.sx/btc@1d"
-alias Rw="curl usd.rate.sx/btc@1w"
-alias Rm="curl usd.rate.sx/btc@1M"
 alias RS="mpv http://161.53.122.184:8000/AAC128.aac"
-alias T="watch sensors k10temp-pci-*"
 alias O="xdg-open"
+alias W="curl wttr.in"
 
 #Set PS1
 force_color_prompt=yes
