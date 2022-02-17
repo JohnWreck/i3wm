@@ -8,6 +8,7 @@ set smartcase
 set incsearch
 "set signcolumn=yes
 set scrolloff=10
+set cursorline
 
 " Set Tab
 set tabstop=4
