@@ -219,7 +219,7 @@ bar {
 	status_command SCRIPT_DIR=$HOME/.scripts/i3blocks i3blocks
 
 colors {
-        background #121212
+        background #202020
 	   	separator #757575
    	    #                  border       background      text
    	    focused_workspace  $gray-dark   $gray-dark	    $white
