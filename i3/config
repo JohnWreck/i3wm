@@ -199,7 +199,8 @@ set $jellow-dark	#ffdd00
 #set $orange-dark	#ff9001
 set $orange-dark	#ffaf00
 set $green-light	#00ff00
-set $green-dark		#808000
+#set $green-dark		#808000
+set $green-dark		#717E49
 set $gray-light		#D2DAD1
 set $gray-dark		#4b4b4b
 set $black		    #181818
@@ -207,7 +208,7 @@ set $white		    #d0d0d0
 
 # Window colors
 #                       border          background      text            indicator
-client.focused          $gray-dark     	$gray-dark      $orange-dark    $orange-dark
+client.focused          $gray-dark     	$gray-dark      $orange-dark    $green-dark
 client.unfocused        $gray-dark	    $black		    $gray-dark	    $yellow-dark
 client.focused_inactive	$gray-dark	    $black		    $gray-dark	    $yellow-dark
 client.urgent		    $gray-dark		$black		    $green-dark 	$yellow-dark
