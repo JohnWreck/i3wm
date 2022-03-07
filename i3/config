@@ -199,8 +199,7 @@ set $jellow-dark	#ffdd00
 #set $orange-dark	#ff9001
 set $orange-dark	#ffaf00
 set $green-light	#00ff00
-#set $green-dark		#808000
-set $green-dark		#717E49
+set $green-dark		#808000
 set $gray-light		#D2DAD1
 set $gray-dark		#4b4b4b
 set $black		    #181818
