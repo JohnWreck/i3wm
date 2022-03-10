@@ -124,7 +124,7 @@ set $ws13 "    "
 
 assign [class="Brave-browser"] $ws6
 assign [class="thunderbird"] $ws7
-assign [class="VirtualBox Manager"] $ws11
+assign [class="Virt-manager"] $ws11
 assign [class="Steam"] $ws12
 assign [class="Transmission-gtk"] $ws13
 

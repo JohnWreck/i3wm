@@ -133,6 +133,7 @@ xset r rate 200 40
 #Disable Xorg bell (hint: xset q)
 xset b off
 
+
 #Aliases
 alias MYIP="curl -s ifconfig.co"
 alias PFSCP="cp -v $HOME/Downloads/config-PFS.*.xml $HOME/Backup/Configs/PFS/ && rm $HOME/Downloads/config-PFS.*.xml"
