@@ -112,9 +112,9 @@ set $ws1 "  1  "
 set $ws2 "  2  "
 set $ws3 "  3  "
 set $ws4 "  4  "
-set $ws5 "  5  "
-set $ws6 "    "
-set $ws7 "    "
+set $ws5 "    "
+set $ws6 "    "
+set $ws7 "  7  "
 set $ws8 "  8  "
 set $ws9 "    "
 set $ws0 "    "
@@ -122,8 +122,8 @@ set $ws11 "    "
 set $ws12 "    "
 set $ws13 "    "
 
-assign [class="Brave-browser"] $ws6
-assign [class="thunderbird"] $ws7
+assign [class="Brave-browser"] $ws5
+assign [class="thunderbird"] $ws6
 assign [class="Virt-manager"] $ws11
 assign [class="Steam"] $ws12
 assign [class="Transmission-gtk"] $ws13
