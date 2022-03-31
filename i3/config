@@ -231,7 +231,7 @@ colors {
 
 
 # Window border set to 1p
-new_window pixel 4
+new_window pixel 2
 
 #bindsym $mod+e exec /usr/bin/alacritty -e nnn -d
 #bindsym $mod+e exec --no-startup-id /usr/bin/alacritty -e ranger 
