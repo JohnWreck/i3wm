@@ -250,7 +250,7 @@ exec --no-startup-id /usr/bin/megasync
 exec --no-startup-id nm-applet
 
 exec_always --no-startup-id /usr/bin/nitrogen --restore 
-#exec_always --no-startup-id picom
+exec_always --no-startup-id picom
 exec_always --no-startup-id alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#4b4b4b" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" 
 
 # Pulse Audio controls
