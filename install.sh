@@ -1,48 +1,48 @@
 #!/usr/bin/env bash
 
 package=(
-alttab
+#alttab
 #amd64-microcode
 arandr
-bc
+#bc
 #bluez-tools
 #brightnessctl
 #bsdmainutils
 ##bmon
 ##calcurse
-cifs-utils
+#cifs-utils
 ##cmus
 ##cups
-curl
-dkms
+#curl
+#dkms
 ##file-roller
-firefox-esr
+firefox
 ##flameshot
-fonts-firacode
-gir1.2-gtop-2.0
+#fonts-firacode
+#gir1.2-gtop-2.0
 ##gpick
 #grc
 ##htop
-i3
-i3blocks
+i3-gaps
+#i3blocks
 ##iotop
 ##iftop
 ##iperf3
 ##iptraf-ng
-kitty
-libnotify-bin
-lm-sensors
-locate
+#kitty
+#libnotify-bin
+#lm-sensors
+#locate
 lxappearance
 materia-gtk-theme
-##mpv
-ncdu
-##neovim
+#mpv
+##ncdu
+neovim
 ##nethogs
-net-tools
-network-manager-gnome
+#net-tools
+#network-manager-gnome
 ##network-manager-openvpn-gnome
-nitrogen
+#nitrogen
 ##nmap
 nnn
 numlockx
@@ -50,14 +50,14 @@ numlockx
 ##papirus-icon-theme
 picom
 playerctl
-pulseaudio
+#pulseaudio
 #pulseaudio-module-bluetooth
 ##pulsemixer
 ##remmina
 ##remmina-plugin-rdp
 #rfkill
 rofi
-rsync
+#rsync
 ##seahorse
 ##software-properties-common
 ##speedtest-cli
@@ -68,14 +68,19 @@ rsync
 ###tlp
 ##transmission
 ##ttf-mscorefonts-installer
-thunar
+#thunar
 ##ufw
 ##wavemon
 ##whois
 ##wireshark
-xinput
-xorg
+#xinput
+#xorg
 )
 
-apt update
-apt install ${package[*]}
+##apt update
+#apt install ${package[*]}
+
+dnf update
+dnf install ${package[*]}
+
+
