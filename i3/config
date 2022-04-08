@@ -47,7 +47,6 @@ bindsym $mod+Shift+q kill
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+space exec rofi -show drun -show-icons 
-#bindsym $mod+Shift+space exec --no-startup-id xdg-open "$(locate "home/" | grep -v '/\.'| rofi -dmenu -i -p "search ")"
 bindsym $mod+Shift+space exec --no-startup-id xdg-open "$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p "search ")"
 bindsym $mod+a exec rofi -show window -show-icons 
 #bindsym $mod+s exec --no-startup-id i3-dmenu-desktop
@@ -139,8 +138,8 @@ set $ws13 "  13  "
 #set $ws13 "    "
 
 
-assign [class="Brave-browser"] $ws5
-assign [class="thunderbird"] $ws6
+assign [class="Brave-browser"] $ws4
+assign [class="thunderbird"] $ws5
 assign [class="Virt-manager"] $ws11
 assign [class="Steam"] $ws12
 assign [class="Transmission-gtk"] $ws13
