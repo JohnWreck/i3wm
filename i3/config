@@ -9,7 +9,7 @@ for_window [class="MEGAsync"] floating enable
 
 workspace_layout default
 
-gaps inner 4
+gaps inner 2
 
 # i3 config file (v4)
 #
