@@ -139,7 +139,7 @@ set $ws13 "  13  "
 
 
 assign [class="Brave-browser"] $ws4
-assign [class="thunderbird"] $ws5
+assign [class="Thunderbird"] $ws5
 assign [class="Virt-manager"] $ws11
 assign [class="Steam"] $ws12
 assign [class="Transmission-gtk"] $ws13
@@ -228,7 +228,8 @@ client.focused_inactive	$gray-dark	    $black		    $gray-dark	    $green-dark
 client.urgent		    $gray-dark		$black		    $green-dark 	$green-dark
 
 
-exec --no-startup-id $HOME/.config/polybar/launch.sh 
+# Exec Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
 
 #bar {
 #	position top
