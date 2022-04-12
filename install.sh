@@ -50,6 +50,8 @@ numlockx
 ##papirus-icon-theme
 picom
 playerctl
+#pulseaudio-utils
+#pipewire-pulseaudio
 #pulseaudio
 #pulseaudio-module-bluetooth
 ##pulsemixer
