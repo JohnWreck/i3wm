@@ -9,7 +9,7 @@ for_window [class="MEGAsync"] floating enable
 
 workspace_layout default
 
-gaps inner 8
+#gaps inner 8
 
 # i3 config file (v4)
 #
@@ -138,8 +138,8 @@ set $ws13 "  13  "
 #set $ws13 "    "
 
 
-assign [class="Brave-browser"] $ws4
-assign [class="Thunderbird"] $ws5
+assign [class="Brave-browser"] $ws3
+assign [class="Thunderbird"] $ws4
 assign [class="Virt-manager"] $ws11
 assign [class="Steam"] $ws12
 assign [class="Transmission-gtk"] $ws13
@@ -216,7 +216,7 @@ set $orange-dark	#b98109
 set $green-light	#00ff00
 set $green-dark		#808000
 set $gray-light		#D2DAD1
-set $gray-dark		#4b4b4b
+set $gray-dark		#4E4E4E
 set $black		    #181818
 set $white		    #d0d0d0
 
