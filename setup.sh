@@ -38,6 +38,3 @@ echo "Links done."
 
 #Create user dirs
 #xdg-user-dirs-update
-
-#Enable 32bit (for Steam)
-#sudo dpkg --add-architecture i386
