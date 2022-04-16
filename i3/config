@@ -9,7 +9,7 @@ for_window [class="MEGAsync"] floating enable
 
 workspace_layout default
 
-#gaps inner 8
+gaps inner 8
 
 # i3 config file (v4)
 #
@@ -216,7 +216,7 @@ set $orange-dark	#b98109
 set $green-light	#00ff00
 set $green-dark		#808000
 set $gray-light		#D2DAD1
-set $gray-dark		#4E4E4E
+set $gray-dark		#3F3F3F
 set $black		    #181818
 set $white		    #d0d0d0
 
@@ -248,7 +248,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 
 # Window border set to 1p
-new_window pixel 2
+new_window pixel 3
 
 bindsym $mod+e exec --no-startup-id /usr/bin/nautilus
 bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
