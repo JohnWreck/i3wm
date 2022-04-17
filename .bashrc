@@ -34,8 +34,8 @@ if [ -f /etc/profile.d/bash_completion.sh ]; then
     . /etc/profile.d/bash_completion.sh
 fi
 
-export VISUAL='/usr/bin/nvim'
-export EDITOR='/usr/bin/nvim'
+#export VISUAL='/usr/bin/nvim'
+#export EDITOR='/usr/bin/nvim'
 export NNN_PLUG='d:diffs;m:nmount;v:imgview'
 
 #Set keyboard speed
