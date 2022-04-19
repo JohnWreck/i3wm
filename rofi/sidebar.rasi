@@ -3,7 +3,7 @@
  * Copyright: Dave Davenport
  */
 * {
-    font: "Fira Sans Book 12";
+    font: "Fira Sans Book 10";
 
     text-color:  #d0d0d0;
     background-color:  rgba(0,0,0,0);
@@ -45,7 +45,7 @@
 }
 #window {
     height:   100%;
-    width: 50em;
+    width: 45em;
     location: west;
     anchor:   west;
     border:  0px 2px 0px 0px;
