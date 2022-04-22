@@ -3,6 +3,7 @@
 package=(
 
 #akmod-nvidia
+#alacritty
 #alttab
 #amd64-microcode
 #bluez-tools
@@ -17,7 +18,6 @@ package=(
 #fontawesome5-free-fonts.noarch
 #fonts-firacode
 #i3-gaps
-#kitty
 #lm-sensors
 #net-tools
 #network-manager-gnome
@@ -33,7 +33,6 @@ package=(
 #subliminal
 #thunar
 #wavemon
-alacritty
 arandr
 bc
 bmon
@@ -59,6 +58,7 @@ iftop
 iotop
 iperf3
 iptraf-ng
+kitty
 lxappearance
 mpv
 ncdu
