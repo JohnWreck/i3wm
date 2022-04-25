@@ -302,7 +302,7 @@ workspace $ws9 output DP-0.1
 workspace $ws0 output HDMI-2
 
 #Bind mouse button 2 to kill focused window
-bindsym --whole-window button2 kill 
+#bindsym --whole-window button2 kill 
 
 #Pop-ups control on fullscreen
 popup_during_fullscreen smart
