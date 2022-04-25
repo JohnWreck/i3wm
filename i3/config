@@ -218,7 +218,7 @@ set $orange-dark	#b98109
 set $green-light	#00ff00
 set $green-dark		#808000
 set $gray-light		#D2DAD1
-set $gray-dark		#4B4B4B
+set $gray-dark		#3F3F3F
 set $black		    #181818
 set $white		    #d0d0d0
 
