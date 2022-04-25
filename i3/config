@@ -250,7 +250,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 
 # Window border set to 1p
-new_window pixel 3
+new_window pixel 4
 
 bindsym $mod+e exec --no-startup-id /usr/bin/nautilus
 bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
