@@ -3,7 +3,6 @@
 package=(
 
 #akmod-nvidia
-#alacritty
 #alttab
 #amd64-microcode
 #bluez-tools
@@ -13,12 +12,8 @@ package=(
 #cups
 #dkms
 #firefox
-#fontawesome5-brands-fonts.noarch
-#fontawesome5-fonts.noarch
-#fontawesome5-free-fonts.noarch
 #fonts-firacode
 #i3-gaps
-#lm-sensors
 #net-tools
 #network-manager-gnome
 #network-manager-openvpn-gnome
@@ -33,6 +28,7 @@ package=(
 #subliminal
 #thunar
 #wavemon
+alacritty
 arandr
 bc
 bmon
@@ -59,6 +55,7 @@ iotop
 iperf3
 iptraf-ng
 kitty
+lm_sensors
 lxappearance
 mpv
 ncdu
@@ -83,6 +80,7 @@ transmission
 whois
 wireshark
 xinput
+xset
 zathura
 zathura-plugins-all
 )
