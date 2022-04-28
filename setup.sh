@@ -12,6 +12,7 @@ mv $HOME/.config/picom $HOME/.config/picom.bak 2>/dev/null
 mv $HOME/.config/polybar $HOME/.config/polybar.bak 2>/dev/null 
 mv $HOME/.icons/ $HOME/.icons.bak/ 2>/dev/null 
 mv $HOME/.fonts/ $HOME/.fonts.bak/ 2>/dev/null 
+mv $HOME/.profile $HOME/.profile.bak/ 2>/dev/null 
 
 echo "Backup done."
 
@@ -35,6 +36,7 @@ ln -s $HOME/.dotfiles/i3/config $HOME/.config/i3/config
 ln -s $HOME/.dotfiles/.icons $HOME/.icons 
 ln -s $HOME/.dotfiles/.fonts $HOME/.fonts 
 ln -s $HOME/.dotfiles/dunst/dunstrc $HOME/.config/dunst/dunstrc
+ln -s $HOME/.dotfiles/.profile $HOME/.profile 
 
 echo "Links done."
 
