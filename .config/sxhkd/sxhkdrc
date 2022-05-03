@@ -51,12 +51,18 @@ super + w
 super + shift + w
     bspc node -d 9 --follow 
 
-#super + shift + b
-#    bspc node -d 3 --follow 
-#
+super + b
+    brave-browser
+
+super + shift + b
+    bspc node -d 3 --follow 
+
+super + m
+    thunderbird
+
 #super + shift + m
 #    bspc node -d 4 --follow 
-
+#
 
 #
 # state/flags
@@ -140,7 +146,7 @@ super + ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
-super + shift + Backspace 
+super + shift + BackSpace 
 	bspc node -p cancel
 
 # cancel the preselection for the focused desktop
