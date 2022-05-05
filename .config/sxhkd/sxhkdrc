@@ -17,6 +17,12 @@ super + shift + @space
 super + Escape
 	i3lock --nofork -e -c 141414
 
+super + n
+    dunstctl close-all
+
+super + shift + n
+    dunstctl history-pop
+
 Print
     flameshot gui
 
