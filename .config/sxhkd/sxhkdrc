@@ -82,7 +82,7 @@ super + f
 #super + ctrl + {m,x,y,z}
 #	bspc node -g {marked,locked,sticky,private}
 
-super + shift + s
+super + s
     bspc node -g sticky
 
 super + {t,shift + f}
