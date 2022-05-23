@@ -252,7 +252,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Window border set to 1p
 new_window pixel 4
 
-bindsym $mod+e exec --no-startup-id /usr/bin/nautilus
+bindsym $mod+e exec --no-startup-id /usr/bin/thunar
 bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
 bindsym $mod+Shift+Return exec --no-startup-id $TERM -e nnn -d -e
 bindsym $mod+m exec  --no-startup-id /usr/bin/thunderbird
@@ -268,7 +268,7 @@ exec --no-startup-id /usr/bin/megasync
 exec --no-startup-id nm-applet
 
 exec_always --no-startup-id /usr/bin/nitrogen --restore 
-# exec_always --no-startup-id picom
+exec_always --no-startup-id picom
 exec_always --no-startup-id alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#272727" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" 
 
 # Pulse Audio controls
