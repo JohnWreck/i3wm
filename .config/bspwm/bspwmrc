@@ -34,7 +34,7 @@ $HOME/.config/polybar/launch.sh
 picom  &
 #cbatticon &
 #nitrogen --restore &
-feh --recursive --bg-fill --randomize ~/Pictures/Wall &
+feh --bg-fill  ~/.wallpaper &
 nm-applet &
 megasync &
 xsetroot -cursor_name left_ptr &
