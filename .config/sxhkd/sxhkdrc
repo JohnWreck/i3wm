@@ -187,7 +187,7 @@ super + ctrl + {Left,Down,Up,Right}
 
 #Move node to next/prev monitor
 
-super + {_,shift} + z
+super + {_,shift} + y
     bspc {monitor -f next, node -m next --follow}
 
 super + o
