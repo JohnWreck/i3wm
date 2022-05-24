@@ -26,15 +26,16 @@ package=(
 #remmina-plugin-rdp
 #rfkill
 #subliminal
-#thunar
 #wavemon
 alacritty
 arandr
 bc
 bmon
+bspwm
 calcurse
 cmus
 curl
+feh
 file-roller
 fira-code-fonts.noarch
 flameshot
@@ -61,7 +62,6 @@ mpv
 ncdu
 neovim
 nethogs
-nitrogen
 nmap
 nnn
 numlockx
@@ -73,8 +73,10 @@ polybar
 rofi
 rsync
 speedtest-cli
+sxhkd
 sxiv
 syncthing
+thunar
 thunderbird
 transmission
 whois
