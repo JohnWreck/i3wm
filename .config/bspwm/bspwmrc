@@ -21,6 +21,7 @@ bspc rule -a Thunderbird desktop='^4'
 bspc rule -a Virt-manager desktop='^5'
 bspc rule -a Steam desktop='^6'
 bspc rule -a Transmission-gtk desktop='^7'
+bspc rule -a Signal desktop='^8'
 
 bspc rule -a MEGAsync state=floating
 bspc rule -a flameshot state=floating
@@ -38,7 +39,7 @@ feh --bg-fill  ~/.wallpaper &
 nm-applet &
 megasync &
 xsetroot -cursor_name left_ptr &
-alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#4b4b4b" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" &
+#alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#4b4b4b" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" &
 
 
 #Fix Mouse cursor on startup 
