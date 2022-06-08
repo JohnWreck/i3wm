@@ -70,6 +70,9 @@ super + f
 super + g
 	bspc node -s biggest.window
 
+# move node to last/next desktop
+super + {_,shift} + d
+    bspc node -d {last, next} --follow
 #
 # state/flags
 #
