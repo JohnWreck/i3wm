@@ -7,11 +7,12 @@ super + Return
 	kitty
 
 # program launcher
-super + @space
+super + a 
 	rofi -show drun -show-icons
 #
 # search launcher
-super + shift + @space
+#super + shift + @space
+super + @space
     xdg-open "$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p "search ")"
 
 super + Escape
