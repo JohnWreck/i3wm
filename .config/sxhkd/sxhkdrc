@@ -127,10 +127,10 @@ super + Tab
 	bspc desktop -f next.occupied
     
 super + shift + Tab
-	bspc desktop -f last
+    bspc desktop -f prev.occupied
 
 super + grave 
-    bspc desktop -f prev.occupied
+	bspc desktop -f last
 
 ## focus the older or newer node in the focus history
 #super + {o,i}
