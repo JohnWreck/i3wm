@@ -142,16 +142,11 @@ super + grave
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
+super + w 
+    bspc desktop -f '^9'
+
 super + shift + w
-    bspc node -d 9 --follow 
-
-super + shift + b
-    bspc node -d 3 --follow 
-
-#super + shift + m
-#    bspc node -d 4 --follow 
-#
-
+    bspc node -d '^9' --follow 
 
 #
 # preselect
