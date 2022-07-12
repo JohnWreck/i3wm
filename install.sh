@@ -83,6 +83,7 @@ whois
 wireshark
 xinput
 xset
+xsetroot
 zathura
 zathura-plugins-all
 )

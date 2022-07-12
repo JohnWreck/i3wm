@@ -32,7 +32,11 @@ bspc rule -a Zathura state=tiled
 
 # exec stuff
 
+#Fix Mouse cursor on startup 
+xsetroot -cursor_name left_ptr
+
 $HOME/.config/polybar/launch.sh
+dunst &
 picom  &
 #cbatticon &
 #nitrogen --restore &
@@ -41,8 +45,3 @@ nm-applet &
 megasync &
 xsetroot -cursor_name left_ptr &
 #alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#4b4b4b" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" &
-
-
-#Fix Mouse cursor on startup 
-xsetroot -cursor_name left_ptr
-
