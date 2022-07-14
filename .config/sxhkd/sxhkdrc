@@ -30,7 +30,7 @@ Print
 super + e
     thunar
 
-super + shift + Return
+super + shift + e
     kitty -e nnn -d -e
 
 super + b
