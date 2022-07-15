@@ -72,6 +72,7 @@ playerctl
 polybar
 rofi
 rsync
+simple-mtpfs
 speedtest-cli
 sxhkd
 sxiv
