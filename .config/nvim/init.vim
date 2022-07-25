@@ -1,3 +1,4 @@
+set encoding=utf-8
 set number
 set relativenumber
 set nohlsearch
@@ -59,6 +60,9 @@ call plug#begin('~/.config/nvim/plugged')
 "Install pip install black
 "Plug 'psf/black', { 'branch': 'stable' }
 Plug 'morhetz/gruvbox'
+"Install nodejs ie. dnf install nodejs, install yarn ie. npm install yarn
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 
 call plug#end()
 
