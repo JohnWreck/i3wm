@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	alacritty -e tmux
 
 # program launcher
 super + @space 
@@ -31,7 +31,7 @@ super + e
     thunar
 
 super + shift + e
-    kitty -e nnn -d -e
+    alacritty -e nnn -d -e
 
 super + b
     brave-browser
