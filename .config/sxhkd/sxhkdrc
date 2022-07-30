@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + {_,shift} + Return
-	{kitty, alacritty -e tmux}
+	{alacritty -e tmux, alacritty}
 
 # program launcher
 super + @space 
