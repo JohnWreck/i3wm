@@ -3,8 +3,8 @@
 #
 
 # terminal emulator
-super + Return
-	alacritty -e tmux
+super + {_,shift} + Return
+	{kitty, alacritty -e tmux}
 
 # program launcher
 super + @space 

@@ -34,9 +34,6 @@ if [ -f /etc/profile.d/bash_completion.sh ]; then
     . /etc/profile.d/bash_completion.sh
 fi
 
-#Exec Tmux
-#[[ $TERM != "screen" ]] && exec tmux
-
 #Set keyboard speed
 xset r rate 200 40
 
