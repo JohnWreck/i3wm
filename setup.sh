@@ -34,3 +34,6 @@ ln -s $HOME/.dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -s $HOME/.dotfiles/alacritty/ $HOME/.config/alacritty
 
 echo "Links done."
+
+papirus-folders -t Papirus-Dark -C black
+
