@@ -39,7 +39,7 @@ super + b
 super + m
     thunderbird
 
-super + ctrl + {shift,alt} + s
+super + ctrl + {shift,alt} s
     systemctl {suspend,poweroff}    
 
 
@@ -53,11 +53,8 @@ super + alt + s
 
 # close and kill
 
-#super + {_,shift + }q
-    #bspc node -{c,k}
-
-super + shift + q
-    bspc node -c
+super + shift + {_,ctrl} q
+    bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
 super + f
