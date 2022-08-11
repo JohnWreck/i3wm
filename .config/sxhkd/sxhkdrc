@@ -36,6 +36,9 @@ super + shift + e
 super + b
     brave-browser
 
+super + shift + b
+    firefox
+
 super + m
     thunderbird
 
