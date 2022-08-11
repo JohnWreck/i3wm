@@ -145,7 +145,7 @@ super + shift + w
 #Hide/unhide nodes
 
 super + {_,shift +} x
-    bspc {node --flag hidden=on, node $(for i in $(bspc query -N -d focused -n .hidden.window); do $(bspc node $i --flag hidden=off);done) --flag hidden=off
+    bspc {node --flag hidden=on, node $(for i in $(bspc query -N -d focused -n .hidden.window); do $(bspc node $i --flag hidden=off --focus);done) --flag hidden=off
 
 #
 # preselect
