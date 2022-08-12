@@ -4,7 +4,7 @@ Before=suspend.target
 
 [Service]
 User=%i
-Type=forking
+Type=simple
 Environment=DISPLAY=":0"
 ExecStart=/usr/bin/i3lock --nofork -e -c 141414
 
