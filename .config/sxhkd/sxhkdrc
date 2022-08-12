@@ -9,9 +9,12 @@ super + {_,shift} + Return
 # program launcher
 super + @space 
 	rofi -show drun -show-icons
+
+super + a
+    rofi -show window -show-icons
+
 #
 # search launcher
-#super + shift + @space
 super + shift + @space
     xdg-open "$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p "search ")"
 
@@ -92,8 +95,6 @@ super + s
 super + {t,shift + f}
     bspc node -t {tiled, floating}
 
-
-
 #
 # focus/swap
 #
@@ -139,11 +140,11 @@ alt + Tab
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-super + w 
-    bspc desktop -f '^9'
-
-super + shift + w
-    bspc node -d '^9' --follow 
+#super + w 
+#    bspc desktop -f '^9'
+#
+#super + shift + w
+#    bspc node -d '^9' --follow 
 
 #Hide/unhide nodes
 
