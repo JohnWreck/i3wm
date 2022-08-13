@@ -192,7 +192,7 @@ super + {_,shift} + y
     bspc {monitor -f next, node -m next --follow}
 
 super + {_,shift} + o
-    bspc node @/ -R {-90, 90}
+    bspc node @/ -R {90, -90}
 
 # Pulse Audio controls
 XF86AudioRaiseVolume
