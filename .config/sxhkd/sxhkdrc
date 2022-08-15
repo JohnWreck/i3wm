@@ -8,10 +8,10 @@ super + {_,shift} + Return
 
 # program launcher
 super + @space 
-	rofi -show drun -show-icons
+	rofi -show drun 
 
 super + a
-    rofi -show window -show-icons
+    rofi -show window 
 
 #
 # search launcher
@@ -75,7 +75,7 @@ super + f
 #	bspc node -s biggest.window
 
 # move node to last/next desktop
-super + {_,shift,ctrl} + d
+super + {_,ctrl,shift} + d
     bspc node -d {last, prev, next} --follow
 #
 # state/flags

@@ -36,6 +36,10 @@ bspc rule -a Zathura state=tiled
 xsetroot -cursor_name left_ptr
 
 $HOME/.config/polybar/launch.sh
+
+#Set mouse acceleration, xinput list (list device), xinput --list-props <device id>
+xinput --set-prop 8 'libinput Accel Speed' -0.9
+
 dunst &
 picom  &
 #cbatticon &
@@ -45,8 +49,5 @@ nm-applet &
 megasync &
 xsetroot -cursor_name left_ptr &
 /usr/bin/find ~ -type f
-
-#Set mouse acceleration, xinput list (list device), xinput --list-props <device id>
-xinput --set-prop 8 'libinput Accel Speed' -0.9
 
 #alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#4b4b4b" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" &

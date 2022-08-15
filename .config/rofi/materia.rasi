@@ -19,7 +19,7 @@
 	spacing: 0;
 	background-color: transparent;
 
-	font: "Fira Sans Book 12";
+	font: "Roboto 13";
 }
 
 window {
