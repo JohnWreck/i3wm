@@ -124,8 +124,8 @@ super + {_,shift + }{Left,Down,Up,Right}
 super + {_,shift + } grave
 	bspc desktop -f {next.occupied,prev.occupied}
 
-super + Tab 
-	bspc desktop -f last.occupied
+super + {_,shift + } Tab 
+	bspc desktop -f {last.occupied,next.occupied}
 
 alt + Tab
 	bspc node -f next.local.!hidden.window
