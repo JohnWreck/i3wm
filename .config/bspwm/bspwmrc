@@ -17,7 +17,7 @@ bspc config focus_follows_pointer true
 
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
 #bspc rule -a Alacritty desktop='^2' follow=on
-bspc rule -a Brave-browser desktop='^3' 
+bspc rule -a Brave-browser desktop='^3' follow=off
 bspc rule -a Thunderbird desktop='^4'
 bspc rule -a Virt-manager desktop='^5'
 bspc rule -a Steam desktop='^6'
@@ -35,19 +35,17 @@ bspc rule -a Zathura state=tiled
 #Fix Mouse cursor on startup 
 xsetroot -cursor_name left_ptr
 
-$HOME/.config/polybar/launch.sh
-
 #Set mouse acceleration, xinput list (list device), xinput --list-props <device id>
 xinput --set-prop 8 'libinput Accel Speed' -0.9
 
-dunst &
-picom  &
+$HOME/.config/polybar/launch.sh
+
 #cbatticon &
 #nitrogen --restore &
+dunst &
+picom  &
 feh --bg-fill  ~/.wallpaper &
 nm-applet &
 megasync &
-xsetroot -cursor_name left_ptr &
-/usr/bin/find ~ -type f
 
 #alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#4b4b4b" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" &
