@@ -1,3 +1,4 @@
+
 #
 # wm independent hotkeys
 #
@@ -193,6 +194,10 @@ super + {_,shift} + y
 
 super + {_,shift} + o
     bspc node @/ -R {90, -90}
+
+# Recepticle
+super + {_,shift +} i 
+    bspc node {-i,$(bspc query -N -n focused) -n $(bspc query -N -n .leaf.\!window)}
 
 # Pulse Audio controls
 XF86AudioRaiseVolume
