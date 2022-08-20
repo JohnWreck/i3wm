@@ -13,8 +13,11 @@ audio/mpegapplication/octet-stream=mpv.desktop
 x-scheme-handler/discord-413081698159296512=discord-413081698159296512.desktop
 image/png=sxiv.desktop
 image/jpeg=sxiv.desktop
+video/mp4=mpv.desktop
 
 [Added Associations]
-text/plain=org.gnome.gedit.desktop;nvim.desktop;
+text/plain=nvim.desktop;org.gnome.gedit.desktop;
 text/html=org.pwmt.zathura.desktop;
 application/x-shellscript=org.gnome.gedit.desktop;nvim.desktop;
+text/x-lua=nvim.desktop;libreoffice-writer.desktop;
+video/mp4=vlc.desktop;mpv.desktop;
