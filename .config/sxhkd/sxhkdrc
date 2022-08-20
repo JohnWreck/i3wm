@@ -43,6 +43,10 @@ super + m
 super + ctrl + {shift,alt} s
     systemctl {suspend,poweroff}    
 
+# Reboot
+super + ctrl + alt + r
+    systemctl reboot
+
 # quit/restart bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}
