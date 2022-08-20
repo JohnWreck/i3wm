@@ -36,7 +36,8 @@ bspc rule -a Zathura state=tiled
 xsetroot -cursor_name left_ptr
 
 # Set mouse acceleration, xinput list (list device), xinput --list-props <device id>
-xinput --set-prop 8 'libinput Accel Speed' -0.9
+xinput --set-prop 8 'libinput Accel Speed' -1
+xinput --set-prop 8 'libinput High Resolution Wheel Scroll Enabled' 0
 
 $HOME/.config/polybar/launch.sh
 
