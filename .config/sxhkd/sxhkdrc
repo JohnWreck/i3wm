@@ -167,13 +167,15 @@ XF86AudioMute
 
 # Media player controls
 XF86AudioPlay
-    playerctl play
+    playerctl play-pause
 XF86AudioPause
     playerctl pause
 XF86AudioNext
     playerctl next
 XF86AudioPrev
     playerctl previous
+XF86AudioStop
+    playerctl stop
 
 ##Backlight
 XF86MonBrightnessUp

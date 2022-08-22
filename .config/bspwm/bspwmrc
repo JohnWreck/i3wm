@@ -41,13 +41,13 @@ xsetroot -cursor_name left_ptr
 xinput --set-prop 8 'libinput Accel Speed' -0.9
 xinput --set-prop 8 'libinput High Resolution Wheel Scroll Enabled' 0
 
-#cbatticon &
-#nitrogen --restore &
-feh --bg-fill  ~/.wallpaper &
-if [[ ! $( pgrep dunst ) ]]; then $( dunst ); fi &
-if [[ ! $( pgrep picom ) ]]; then $( picom ); fi &
-if [[ ! $( pgrep nm-applet ) ]]; then $( nm-applet ); fi &
-if [[ ! $( pgrep megasync ) ]]; then $( megasync ); fi &
+#pgrep -x cbatticon > /dev/null || cbatticon &
+#pgrep -x nitrogen > /dev/null || --restore &
+pgrep -x feh > /dev/null || feh --bg-fill  ~/.wallpaper &
+pgrep -x dunst > /dev/null || dunst &
+pgrep -x picom > /dev/null || picom &
+pgrep -x nm-applet > /dev/null || nm-applet &
+pgrep -x megasync > /dev/null || megasync &
 
 /usr/bin/find ~ -type f
 
