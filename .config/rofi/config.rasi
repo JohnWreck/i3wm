@@ -24,3 +24,8 @@ element-text {
 element-text {
     vertical-align: 0.5;
 }
+
+listview {
+    require-input: true;
+}
+

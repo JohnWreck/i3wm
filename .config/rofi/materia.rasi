@@ -19,7 +19,7 @@
 	spacing: 0;
 	background-color: transparent;
 
-	font: "Roboto 13";
+	font: "Roboto 12";
 }
 
 window {
