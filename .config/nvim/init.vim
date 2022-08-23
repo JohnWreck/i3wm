@@ -60,6 +60,7 @@ call plug#begin('~/.config/nvim/plugged')
 "Install pip install black
 "Plug 'psf/black', { 'branch': 'stable' }
 Plug 'morhetz/gruvbox'
+Plug 'tomasiser/vim-code-dark'
 "Install nodejs ie. dnf install nodejs, install yarn ie. npm install yarn
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -67,4 +68,5 @@ Plug 'morhetz/gruvbox'
 call plug#end()
 
 let g:gruvbox_contrast_dark = 'hard'
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme codedark
