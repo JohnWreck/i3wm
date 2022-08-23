@@ -1,16 +1,26 @@
-//@theme "/usr/share/rofi/themes/materia.rasi"
-//@theme "/usr/share/rofi/themes/sidebar.rasi"
-//@theme "/usr/share/rofi/themes/docu.rasi"
-//@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"
-//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
-//@theme "/usr/share/rofi/themes/android_notification.rasi"
-//@theme "/usr/share/rofi/themes/dmenu.rasi"
-//@theme "/usr/share/rofi/themes/Pop-Dark.rasi"
-//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
-//@theme "/usr/share/rofi/themes/Monokai.rasi"
-//@theme "/usr/share/rofi/themes/dmenu.rasi"
-//@theme "/usr/share/rofi/themes/android_notification.rasi"
-//@theme "/usr/share/rofi/themes/Pop-Dark.rasi"
-//@theme "/usr/share/rofi/themes/sidebar.rasi"
-//@theme "/usr/share/rofi/themes/Monokai.rasi"
-@theme "/usr/share/rofi/themes/materia.rasi"
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+@theme "materia.rasi"
+ 
+/* Insert theme modifications after this */
+
+element {
+  orientation: horizontal;
+  children: [ element-icon, element-text ];
+  spacing: 10px;
+}
+
+element-icon {
+    size: 1em;
+}
+
+element-text {
+  text-color: white;
+}
+
+element-text {
+    vertical-align: 0.5;
+}
