@@ -31,8 +31,8 @@ set statusline+=\ %c:%l/%L
 set statusline+=\ %p%%
 
 " Escape 
-"inoremap jk <Esc>
-"inoremap kj <Esc>
+inoremap jk <Esc>
+inoremap kj <Esc>
 
 " Tab visual selection
 vmap <Tab> >gv
@@ -45,10 +45,10 @@ vnoremap <C-c> "+y
 "colorscheme pablo
 "set background=dark
 
-"Disable Highlight match
+" Disable Highlight match
 :let loaded_matchparen = 1
 
-"automated installation of vimplug if not installed
+" Automated installation of vimplug if not installed
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
     silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
         \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -57,11 +57,13 @@ endif
 
 call plug#begin('~/.config/nvim/plugged')
 
-"Install pip install black
-"Plug 'psf/black', { 'branch': 'stable' }
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
 Plug 'tomasiser/vim-code-dark'
-"Install nodejs ie. dnf install nodejs, install yarn ie. npm install yarn
+
+" Install pip install black
+"Plug 'psf/black', { 'branch': 'stable' }
+"
+" Install nodejs ie. dnf install nodejs, install yarn ie. npm install yarn
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
