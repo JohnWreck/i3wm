@@ -26,6 +26,7 @@ element-text {
 }
 
 listview {
+    layout: horizontal;
     require-input: true;
 }
 
