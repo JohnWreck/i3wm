@@ -83,7 +83,7 @@ super + s
     bspc node -g sticky
 
 # Node type tiled, floating 
-super + {t,shift + f}
+super + {_,shift + } t
     bspc node -t {tiled, floating}
 
 # focus the node in the given direction
