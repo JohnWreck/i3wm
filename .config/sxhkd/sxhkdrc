@@ -4,10 +4,13 @@ super + {_,shift} + Return
 
 # program launcher
 super + @space 
-	rofi -show drun 
+	rofi -show combi -modes combi -combi-modes "window,drun" 
 
-super + a
-    rofi -show window 
+super + a 
+	rofi -show combi -modes combi -combi-modes "window,drun" 
+
+#super + a
+#    rofi -show window 
 
 super + shift + @space
     xdg-open "$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p "search ")"
@@ -75,10 +78,11 @@ super + {_,ctrl,shift +} d
 #super + ctrl + {m,x,y,z}
 #	bspc node -g {marked,locked,sticky,private}
 
-# Node mode
+# Node mode sticky switch
 super + s
     bspc node -g sticky
 
+# Node type tiled, floating 
 super + {t,shift + f}
     bspc node -t {tiled, floating}
 
