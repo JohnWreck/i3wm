@@ -35,4 +35,3 @@ listview {
     require-input: false;
     lines: 10;
 }
-

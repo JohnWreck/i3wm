@@ -35,6 +35,7 @@ bspwm
 calcurse
 cmus
 curl
+fedora-workstation-repositories
 feh
 file-roller
 fira-code-fonts.noarch
@@ -91,6 +92,9 @@ zathura-plugins-all
 
 ##RPMFusion setup free/nonfree
 dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+## Fedora workstation repos, enable Google Chrome
+dnf config-manager --set-enabled google-chrome
 
 dnf update
 dnf install ${package[*]}
