@@ -90,7 +90,7 @@ bindsym $mod+BackSpace split toggle
 bindsym $mod+Shift+BackSpace split toggle; layout tabbed
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+w fullscreen toggle
 
 ## change container layout (stacked, tabbed, toggle split)
 #bindsym $mod+t layout tabbed
@@ -98,7 +98,7 @@ bindsym $mod+s layout tabbed
 bindsym $mod+Shift+s layout toggle split 
 
 # toggle tiling / floating
-bindsym $mod+Shift+f floating toggle
+bindsym $mod+f floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+c focus mode_toggle
@@ -126,10 +126,11 @@ set $ws12 "  12  "
 set $ws13 "  13  "
 
 assign [class="Brave-browser"] $ws3
-assign [class="Thunderbird"] $ws4
+assign [class="thunderbird"] $ws4
 assign [class="Virt-manager"] $ws5
 assign [class="Steam"] $ws6
 assign [class="Transmission-gtk"] $ws7
+assign [class="Signal"] $ws8
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -140,7 +141,7 @@ bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
-bindsym $mod+w workspace $ws9
+bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws0
 
 bindsym $mod+Tab workspace next
@@ -156,9 +157,8 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+w move container to workspace $ws9
+bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws0
-
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
