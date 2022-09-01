@@ -36,5 +36,6 @@ ln -s $HOME/.dotfiles/.profile $HOME/.profile
 ln -s $HOME/.dotfiles/.tmux.conf $HOME/.tmux.conf
 echo "Links done."
 
-#papirus-folders -t Papirus-Dark -C black
+# Disable Polybar monitor settings for generic configs
+sed -i 's/^monitor/;monitor/' .config/polybar/config.ini
 

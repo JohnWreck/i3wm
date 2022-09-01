@@ -2,8 +2,13 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor DP-0 -d 1 2 3 4 5 6 7 8 9
-bspc monitor HDMI-2 -d 0
+if [[ $(xrandr | grep -i 'DP-0 connected') ]]
+then
+    bspc monitor DP-0 -d 1 2 3 4 5 6 7 8 9
+    bspc monitor HDMI-2 -d 0
+else
+    bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+fi
 
 bspc config border_width         2
 bspc config window_gap           6 

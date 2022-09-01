@@ -13,7 +13,8 @@ super + a
 #    rofi -show window 
 
 super + shift + @space
-    xdg-open "$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p "search ")"
+  alacritty -e nnn -d -e "$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p "search ")"
+  #$HOME/Scripts/rofi_search.sh
 
 super + Escape
 	i3lock --nofork -e -c 141414
