@@ -14,6 +14,7 @@ mv $HOME/.config/sxhkd/ $HOME/.config/sxhkd.bak 2>/dev/null
 mv $HOME/.fonts/ $HOME/.fonts.bak/ 2>/dev/null 
 mv $HOME/.icons/ $HOME/.icons.bak/ 2>/dev/null 
 mv $HOME/.profile $HOME/.profile.bak/ 2>/dev/null 
+mv $HOME/.scripts/ $HOME/.scripts.bak/ 2>/dev/null 
 mv $HOME/.tmux.conf $HOME/.tmux.conf.bak 2>/dev/null 
 echo "Backup done."
 
@@ -33,9 +34,10 @@ ln -s $HOME/.dotfiles/.config/sxhkd/ $HOME/.config/sxhkd
 ln -s $HOME/.dotfiles/.fonts/ $HOME/.fonts 
 ln -s $HOME/.dotfiles/.icons/ $HOME/.icons 
 ln -s $HOME/.dotfiles/.profile $HOME/.profile 
+ln -s $HOME/.dotfiles/.scripts/ $HOME/.scripts 
 ln -s $HOME/.dotfiles/.tmux.conf $HOME/.tmux.conf
 echo "Links done."
 
 # Disable Polybar monitor settings for generic configs
-sed -i 's/^monitor/;monitor/' .config/polybar/config.ini
+sed -i 's/^monitor/;monitor/' $HOME/.config/polybar/config.ini
 
