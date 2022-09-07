@@ -7,6 +7,6 @@ then
     then
         tmux new-window nnn -d -e $search_input
     else
-        alacritty -e nnn -d -e $search_input
+        $TERM -e nnn -d -e $search_input
     fi
 fi

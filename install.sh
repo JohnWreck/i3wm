@@ -8,13 +8,11 @@ package=(
 #bluez-tools
 #brightnessctl
 #bsdmainutils
-#cifs-utils
 #cups
 #dkms
 #firefox
 #fonts-firacode
 #i3-gaps
-#net-tools
 #network-manager-gnome
 #network-manager-openvpn-gnome
 #pipewire
@@ -33,6 +31,7 @@ bc
 bmon
 bspwm
 calcurse
+cifs-utils
 cmus
 curl
 fedora-workstation-repositories
@@ -41,6 +40,7 @@ file-roller
 fira-code-fonts.noarch
 flameshot
 fontawesome5-fonts-all.noarch
+git
 google-carlito-fonts.noarch
 google-droid-sans-fonts.noarch
 google-noto-cjk-fonts-common.noarch
@@ -62,6 +62,7 @@ lxappearance
 mpv
 ncdu
 neovim
+net-tools
 nethogs
 nmap
 nnn
@@ -71,6 +72,7 @@ papirus-icon-theme
 picom
 playerctl
 polybar
+pop-gtk2-theme
 rofi
 rsync
 simple-mtpfs
