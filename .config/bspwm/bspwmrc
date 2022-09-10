@@ -25,10 +25,10 @@ bspc rule -a Brave-browser desktop='^1' follow=off
 bspc rule -a thunderbird desktop='^2'
 bspc rule -a Alacritty desktop='^3' follow=on
 bspc rule -a Thunar desktop='^4' follow=on
-bspc rule -a Virt-manager desktop='^5'
-bspc rule -a Steam desktop='^6'
-bspc rule -a Transmission-gtk desktop='^7'
-bspc rule -a Signal desktop='^8' follow=off
+bspc rule -a Signal desktop='^5' follow=off
+bspc rule -a Virt-manager desktop='^6'
+bspc rule -a Steam desktop='^7'
+bspc rule -a Transmission-gtk desktop='^8'
 
 bspc rule -a MEGAsync state=floating
 bspc rule -a flameshot state=floating
