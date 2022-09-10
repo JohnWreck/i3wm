@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-search_input=$(find ~ -type f | grep -v '/\.'| rofi -dmenu -i -p)
+search_input=$(find ~ -type d -maxdepth 2 | grep -v '/\.'| rofi -dmenu -i -p)
 
 if [[ $search_input ]]
 then
