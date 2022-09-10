@@ -58,3 +58,6 @@ dnf install ${package[*]}
 ## Set Suspendlock service
 cp $HOME/.dotfiles/systemd/system/suspendlock@.service /etc/systemd/system/
 systemctl enable suspendlock@john.service
+
+## Set locale
+# cp $HOME/.dotfiles/locale.conf /etc/locale.conf

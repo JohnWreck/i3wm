@@ -10,6 +10,7 @@ mv $HOME/.config/nvim/ $HOME/.config/nvim/init.vim.bak 2>/dev/null
 mv $HOME/.config/picom/ $HOME/.config/picom.bak 2>/dev/null 
 mv $HOME/.config/polybar/ $HOME/.config/polybar.bak 2>/dev/null 
 mv $HOME/.config/rofi/ $HOME/.config/rofi.bak 2>/dev/null 
+mv $HOME/.config/flameshot/ $HOME/.config/flameshot.bak 2>/dev/null 
 mv $HOME/.config/sxhkd/ $HOME/.config/sxhkd.bak 2>/dev/null 
 mv $HOME/.fonts/ $HOME/.fonts.bak/ 2>/dev/null 
 mv $HOME/.icons/ $HOME/.icons.bak/ 2>/dev/null 
@@ -35,6 +36,7 @@ ln -s $HOME/.dotfiles/.config/mimeapps.list $HOME/.config/mimeapps.list
 ln -s $HOME/.dotfiles/.config/nvim/ $HOME/.config/nvim
 ln -s $HOME/.dotfiles/.config/picom/ $HOME/.config/picom
 ln -s $HOME/.dotfiles/.config/rofi/ $HOME/.config/rofi
+ln -s $HOME/.dotfiles/.config/flameshot/ $HOME/.config/flameshot
 ln -s $HOME/.dotfiles/.config/sxhkd/ $HOME/.config/sxhkd
 ln -s $HOME/.dotfiles/.fonts/ $HOME/.fonts 
 ln -s $HOME/.dotfiles/.icons/ $HOME/.icons 
@@ -45,5 +47,4 @@ echo "Links done."
 
 # Disable Polybar monitor settings for generic configs
 sed -i 's/^monitor/;monitor/' $HOME/.config/polybar/config.ini
-
 
