@@ -22,6 +22,7 @@ package=(
 #remmina-plugin-rdp
 #rfkill
 #wavemon
+fzf
 alacritty
 bc
 bmon
