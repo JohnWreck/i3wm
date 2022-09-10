@@ -1,6 +1,7 @@
 [Unit]
 Description=Lock the screen on resume from suspend for user %i
 Before=suspend.target
+Before=sleep.target
 
 [Service]
 User=%i
@@ -10,3 +11,4 @@ ExecStart=/usr/bin/i3lock --nofork -e -c 141414
 
 [Install]
 WantedBy=suspend.target
+WantedBy=sleep.target
