@@ -23,7 +23,6 @@ package=(
 #rfkill
 #wavemon
 fzf
-alacritty
 bc
 bmon
 cmus

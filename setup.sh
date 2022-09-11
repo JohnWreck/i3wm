@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#mv $HOME/.config/alacritty/ $HOME/.config/alacritty.bak 2>/dev/null 
+mv $HOME/.config/alacritty/ $HOME/.config/alacritty.bak 2>/dev/null 
 mv $HOME/.bashrc $HOME/.bashrc.bak 2>/dev/null 
 mv $HOME/.config/dunst/ $HOME/.config/dunst.bak 2>/dev/null 
 mv $HOME/.config/i3/ $HOME/.config/i3.bak 2>/dev/null 
@@ -19,14 +19,14 @@ mv $HOME/.scripts/ $HOME/.scripts.bak/ 2>/dev/null
 mv $HOME/.tmux.conf $HOME/.tmux.conf.bak 2>/dev/null 
 echo "Backup done."
 
-if [ -f /usr/bin/bspwm ];
+if [ $(grep bspwm) ];
 then
     ln -s $HOME/.dotfiles/.config/polybar.bspwm/ $HOME/.config/polybar
 else
     ln -s $HOME/.dotfiles/.config/polybar.i3/ $HOME/.config/polybar
 fi
 
-#ln -s $HOME/.dotfiles/.config/alacritty/ $HOME/.config/alacritty
+ln -s $HOME/.dotfiles/.config/alacritty/ $HOME/.config/alacritty
 ln -s $HOME/.dotfiles/.bashrc $HOME/.bashrc
 ln -s $HOME/.dotfiles/.config/bspwm/ $HOME/.config/bspwm 
 ln -s $HOME/.dotfiles/.config/dunst/ $HOME/.config/dunst

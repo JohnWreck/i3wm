@@ -2,6 +2,7 @@
 
 package=(
 
+alacritty
 arandr
 bspwm
 calcurse
