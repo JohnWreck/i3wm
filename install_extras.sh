@@ -22,7 +22,6 @@ package=(
 #remmina-plugin-rdp
 #rfkill
 #wavemon
-fzf
 bc
 bmon
 cmus

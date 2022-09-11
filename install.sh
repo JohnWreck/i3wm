@@ -15,6 +15,7 @@ fira-code-fonts.noarch
 firefox
 flameshot
 fontawesome5-fonts-all.noarch
+fzf
 git
 google-carlito-fonts.noarch
 google-droid-sans-fonts.noarch
