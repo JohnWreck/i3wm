@@ -33,6 +33,7 @@ bspc rule -a Transmission-gtk desktop='^8'
 bspc rule -a MEGAsync state=floating
 bspc rule -a flameshot state=floating
 bspc rule -a Zathura state=tiled
+bspc rule -a FZF_Search state=tiled
 #bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off
 
