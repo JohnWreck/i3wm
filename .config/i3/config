@@ -6,7 +6,7 @@
 #
 for_window [class="Yad"] floating enable
 for_window [class="MEGAsync"] floating enable
-for_window [class="FZF_Search"] floating enable, resize set 1000 600
+#for_window [class="FZF_Search"] floating enable, resize set 1000 600
 
 workspace_layout default
 
