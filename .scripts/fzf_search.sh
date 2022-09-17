@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
 cd $HOME
-search=$(fzf --reverse --no-info --border=rounded --height=100%)
+search=$(fzf  --reverse --no-info --border=rounded --height=100%)
 
-nnn -d -e "${search}"
+nnn -d -e -i "${search}"
