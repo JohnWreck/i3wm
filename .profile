@@ -13,6 +13,7 @@ export IMAGE=/usr/bin/sxiv
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export WM="bspwm"
+export LESS="-R"
 
 export NNN_PLUG='d:diffs;m:nmount;v:imgview;o:fzopen'
 

@@ -28,8 +28,6 @@ unset rc
 
 ## Custom settings ##
 
-export LESS='--mouse --wheel-lines=4'
-
 #Bash completion
 
 if [ -f /etc/profile.d/bash_completion.sh ]; then
