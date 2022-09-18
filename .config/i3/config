@@ -47,8 +47,6 @@ bindsym $mod+Return exec --no-startup-id $TERM
 bindsym $mod+Shift+q kill
 #bindsym $mod+Shift+Ctrl+p shutdown now 
 
-bindsym $mod + d scratchpad show
-
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+space exec rofi -show drun 
@@ -113,6 +111,9 @@ bindsym $mod+c focus mode_toggle
 
 # focus the child container
 #bindsym $mod+d focus child
+
+# Move container to another window
+bindsym $mod + d floating toggle; sticky toggle
 
 
 
@@ -254,7 +255,6 @@ bindsym $mod+b exec --no-startup-id /usr/bin/brave-browser
 bindsym $mod+n exec --no-startup-id /usr/bin/dunstctl close-all 
 bindsym $mod+Shift+n exec --no-startup-id /usr/bin/dunstctl history-pop
 bindsym Print exec --no-startup-id /usr/bin/flameshot gui
-bindsym $mod+Shift+a sticky toggle
 
 # Exec stuff
 

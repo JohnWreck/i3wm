@@ -31,8 +31,8 @@ set statusline+=\ %c:%l/%L
 set statusline+=\ %p%%
 
 " Escape 
-inoremap jk <Esc>
-inoremap kj <Esc>
+"inoremap jk <Esc>
+"inoremap kj <Esc>
 
 " Tab visual selection
 vmap <Tab> >gv
