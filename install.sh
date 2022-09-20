@@ -28,6 +28,7 @@ google-noto-sans-sinhala-vf-fonts.noarch
 kitty
 lm_sensors
 lxappearance
+nautilus
 neovim
 nnn
 numlockx
