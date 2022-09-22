@@ -28,19 +28,19 @@ Print
     flameshot gui
 
 super + e
-    thunar
+    nautilus
 
-#super + shift + e
-#    kitty -e nnn -d -e
+super + shift + e
+    kitty -e nnn -d -e
 
-#super + b
-#    brave-browser
+super + b
+    brave-browser
 
-#super + shift + b
-#    firefox
+super + shift + b
+    firefox
 
-#super + m
-#    thunderbird
+super + m
+    thunderbird
 
 # Shutdown/Suspend
 super + ctrl + {shift,alt} s
