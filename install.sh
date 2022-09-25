@@ -25,6 +25,7 @@ google-noto-fonts-common.noarch
 google-noto-sans-cjk-ttc-fonts.noarch
 google-noto-sans-gurmukhi-fonts.noarch
 google-noto-sans-sinhala-vf-fonts.noarch
+gvfs-smb
 kitty
 lm_sensors
 lxappearance
