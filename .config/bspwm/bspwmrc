@@ -23,8 +23,8 @@ bspc config focus_follows_pointer true
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Brave-browser desktop='^1' follow=off
 bspc rule -a thunderbird desktop='^2'
-bspc rule -a Alacritty desktop='^3' follow=on
-bspc rule -a Org.gnome.Nautilus desktop='^4' follow=on
+#bspc rule -a Alacritty desktop='^3' follow=on
+#bspc rule -a Org.gnome.Nautilus desktop='^4' follow=on
 bspc rule -a Signal desktop='^5' follow=off
 bspc rule -a Virt-manager desktop='^6'
 bspc rule -a Steam desktop='^7'
@@ -33,7 +33,7 @@ bspc rule -a Transmission-gtk desktop='^8'
 bspc rule -a MEGAsync state=floating
 bspc rule -a flameshot state=floating
 bspc rule -a Zathura state=tiled
-bspc rule -a FZF_Search state=tiled
+#bspc rule -a FZF_Search state=floating
 #bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off
 

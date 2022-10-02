@@ -1,6 +1,6 @@
 # terminal emulator
 super + {_,shift} + Return
-	{kitty, alacritty -e tmux}
+	{kitty, kitty -e tmux}
 
 # program launcher
 super + @space 
