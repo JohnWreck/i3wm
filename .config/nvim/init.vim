@@ -59,6 +59,8 @@ call plug#begin('~/.config/nvim/plugged')
 
 "Plug 'morhetz/gruvbox'
 Plug 'tomasiser/vim-code-dark'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Install pip install black
 "Plug 'psf/black', { 'branch': 'stable' }
