@@ -13,7 +13,7 @@ super + a
 #    rofi -show window 
 
 super + shift + @space
-   kitty --class "FZF_Search" -e $HOME/.scripts/fzf_search.sh
+   kitty  --class "FZF_Search" -e $HOME/.scripts/fzf_search.sh
 
 super + Escape
 	i3lock --nofork -e -c 141414
@@ -28,7 +28,7 @@ Print
     flameshot gui
 
 super + e
-    nautilus
+    thunar
 
 super + shift + e
     kitty -e nnn -d -e
