@@ -28,7 +28,7 @@ Print
     flameshot gui
 
 super + e
-    thunar
+    nautilus
 
 super + shift + e
     kitty -e nnn -d -e
