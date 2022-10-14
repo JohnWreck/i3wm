@@ -61,3 +61,6 @@ pgrep -x megasync > /dev/null || megasync &
 /usr/bin/find ~ -type f
 
 #alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#4b4b4b" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" &
+
+$HOME/Scripts/price_notify.sh
+

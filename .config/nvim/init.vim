@@ -34,6 +34,10 @@ set statusline+=\ %p%%
 "inoremap jk <Esc>
 "inoremap kj <Esc>
 
+
+nnoremap <C-f> :FZF<CR>
+nnoremap <C-t> :tabnew<CR>
+
 " Tab visual selection
 vmap <Tab> >gv
 vmap <S-Tab> <gv
