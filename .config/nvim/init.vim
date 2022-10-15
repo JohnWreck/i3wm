@@ -35,7 +35,7 @@ set statusline+=\ %p%%
 "inoremap kj <Esc>
 
 
-nnoremap <C-f> :FZF<CR>
+nnoremap <C-f> :Files ~<CR>
 nnoremap <C-t> :tabnew<CR>
 
 " Tab visual selection
