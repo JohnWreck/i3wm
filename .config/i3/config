@@ -121,7 +121,7 @@ set $ws12 "  12  "
 set $ws13 "  13  "
 
 #assign [class="Brave-browser"] $ws1
-assign [class="Firefox"] $ws1
+assign [class="firefox"] $ws1
 assign [class="thunderbird"] $ws2
 assign [class="Alacritty"] $ws3
 assign [class="Thunar"] $ws4
@@ -194,11 +194,11 @@ set $green-dark		#808000
 set $gray-light		#D2DAD1
 set $gray-dark		#363636
 set $black		    #1C1C1C
-set $white		    #d0d0d0
+set $white		    #C5C8C6
 
 # Window colors
 #                       border          background      text            indicator
-client.focused          $gray-dark     	$gray-dark      $orange-dark    $green-dark
+client.focused          $gray-dark     	$gray-dark      $white          $green-dark
 client.unfocused        $gray-dark	    $black		    $gray-dark	    $green-dark
 client.focused_inactive	$gray-dark	    $black		    $gray-dark	    $green-dark
 client.urgent		    $gray-dark		$black		    $green-dark 	$green-dark

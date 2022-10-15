@@ -65,6 +65,7 @@ alias ll='ls -alFht'
 alias MYIP="curl -s ifconfig.co"
 alias UP="sudo dnf update; flatpak update"
 alias YT="youtube-dl -x --audio-format mp3 --audio-quality 0"
+alias Y="ytfzf --thumb-viewer=kitty -t"
 alias F=$HOME/.scripts/fzf_search.sh
 alias P="sxiv *"
 alias R="curl usd.rate.sx"
