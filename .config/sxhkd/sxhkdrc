@@ -34,9 +34,6 @@ super + shift + e
     kitty -e nnn -d -e
 
 super + b
-    brave-browser
-
-super + shift + b
     firefox
 
 super + m
