@@ -34,7 +34,9 @@ set statusline+=\ %p%%
 "inoremap jk <Esc>
 "inoremap kj <Esc>
 
+"xnoremap("<leader>p", "\"_dP")
 
+" FZF and Tabs
 nnoremap <C-f> :Files ~<CR>
 nnoremap <C-t> :tabnew<CR>
 
