@@ -124,7 +124,7 @@ set $ws13 "  13  "
 #assign [class="Brave-browser"] $ws1
 assign [class="firefox"] $ws1
 assign [class="thunderbird"] $ws2
-assign [class="Tmux"] $ws3
+#assign [class="Tmux"] $ws3
 assign [class="Thunar"] $ws4
 assign [class="Org.gnome.Nautilus"] $ws4
 assign [class="Signal"] $ws5
@@ -214,7 +214,7 @@ new_window pixel 3
 
 bindsym $mod+e exec --no-startup-id /usr/bin/nautilus
 bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
-bindsym $mod+Shift+Return exec --no-startup-id alacritty --class Tmux -e tmux 
+#bindsym $mod+Shift+Return exec --no-startup-id alacritty --class Tmux -e tmux 
 bindsym $mod+m exec  --no-startup-id /usr/bin/thunderbird
 bindsym $mod+b exec --no-startup-id /usr/bin/firefox
 bindsym $mod+n exec --no-startup-id /usr/bin/dunstctl close-all 
