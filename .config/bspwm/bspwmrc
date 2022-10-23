@@ -22,7 +22,7 @@ bspc config focus_follows_pointer true
 
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
 #bspc rule -a Brave-browser desktop='^1'
-bspc rule -a Firefox desktop='^1'
+bspc rule -a firefox desktop='^1'
 bspc rule -a thunderbird desktop='^2'
 bspc rule -a Tmux desktop='^3' follow=on
 bspc rule -a Org.gnome.Nautilus desktop='^4' follow=on
@@ -56,7 +56,7 @@ xinput --set-prop 8 'libinput High Resolution Wheel Scroll Enabled' 0
 pgrep -x feh > /dev/null || feh --bg-fill  ~/.wallpaper &
 pgrep -x dunst > /dev/null || dunst &
 pgrep -x picom > /dev/null || picom &
-#pgrep -x nm-applet > /dev/null || nm-applet &
+pgrep -x nm-applet > /dev/null || nm-applet &
 pgrep -x megasync > /dev/null || megasync &
 
 /usr/bin/find ~ -type f
