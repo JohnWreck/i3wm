@@ -67,6 +67,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'tomasiser/vim-code-dark'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+"Plug 'preservim/nerdtree'
 
 " Install pip install black
 "Plug 'psf/black', { 'branch': 'stable' }

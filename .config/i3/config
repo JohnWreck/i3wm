@@ -214,7 +214,7 @@ new_window pixel 3
 
 bindsym $mod+e exec --no-startup-id /usr/bin/nautilus
 bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
-#bindsym $mod+Shift+Return exec --no-startup-id alacritty --class Tmux -e tmux 
+bindsym $mod+Shift+Return exec --no-startup-id alacritty --class Tmux -e tmux 
 bindsym $mod+m exec  --no-startup-id /usr/bin/thunderbird
 bindsym $mod+b exec --no-startup-id /usr/bin/firefox
 bindsym $mod+n exec --no-startup-id /usr/bin/dunstctl close-all 
