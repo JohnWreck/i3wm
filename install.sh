@@ -41,6 +41,7 @@ polybar
 pop-gtk2-theme
 rofi
 simple-mtpfs
+gvfs-fuse
 sxhkd
 sxiv
 thunar
