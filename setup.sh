@@ -43,3 +43,5 @@ echo "Links done."
 # Disable Polybar monitor settings for generic configs
 sed -i 's/^monitor/;monitor/' $HOME/.config/polybar/config.ini
 
+# Papirus folders
+# papirus-folders -C bluegrey --theme Papirus-Dark
