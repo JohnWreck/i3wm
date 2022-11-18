@@ -7,7 +7,7 @@ configuration {
   hover-select: false;
 }
 
-@theme "sidebar.rasi"
+@theme "materia.rasi"
  
 /* Insert theme modifications after this */
 

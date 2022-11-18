@@ -28,7 +28,7 @@ Print
     flameshot gui
 
 super + e
-    nautilus
+    thunar
 
 super + shift + e
     alacritty -e nnn -d -e
