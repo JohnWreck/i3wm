@@ -1,6 +1,6 @@
 # terminal emulator
 super + {_,shift} + Return
-	{alacritty, alacritty -e tmux}
+	{kitty, kitty -e tmux}
 
 # program launcher
 super + @space 
@@ -13,7 +13,7 @@ super + a
 #    rofi -show window 
 
 super + shift + @space
-   alacritty  --class "FZF_Search" -e $HOME/.scripts/fzf_search.sh
+   kitty  --class "FZF_Search" -e $HOME/.scripts/fzf_search.sh
 
 super + Escape
 	i3lock --nofork -e -c 141414
@@ -31,7 +31,7 @@ super + e
     thunar
 
 super + shift + e
-    alacritty -e nnn -d -e
+    kitty -e nnn -d -e
 
 super + b
     firefox
