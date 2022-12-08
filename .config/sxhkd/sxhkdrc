@@ -99,15 +99,14 @@ super + {_,shift + }{Left,Down,Up,Right}
 #	bspc {node,desktop} -f next
 #
 
-super + {_,shift + } Tab
-	bspc desktop -f {next.occupied,prev.occupied}
-
 alt + Tab
 	bspc node -f next.local.!hidden.window
 
-super + grave 
+super + Tab 
 	bspc desktop -f {last.occupied}
 
+super + {_,shift + } grave
+	bspc desktop -f {next.occupied,prev.occupied}
 
 ## focus the older or newer node in the focus history
 #super + {o,i}
