@@ -36,6 +36,7 @@ numlockx
 p7zip
 papirus-icon-theme
 picom
+pip
 playerctl
 polybar
 pop-gtk2-theme
@@ -58,4 +59,3 @@ dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(r
 
 dnf update
 dnf install ${package[*]}
-
