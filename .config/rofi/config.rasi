@@ -7,7 +7,6 @@ configuration {
   hover-select: false;
 }
 
-@theme "materia.rasi"
  
 /* Insert theme modifications after this */
 
@@ -35,3 +34,6 @@ listview {
     require-input: false;
     lines: 10;
 }
+
+//@theme "materia.rasi"
+@theme "/usr/share/rofi/themes/dmenu.rasi"
