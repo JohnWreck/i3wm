@@ -125,7 +125,7 @@ set $ws13 "  13  "
 #assign [class="Brave-browser"] $ws1
 assign [class="firefox"] $ws1
 assign [class="thunderbird"] $ws2
-assign [class="Tmux"] $ws3
+assign [class="Codium"] $ws3
 assign [class="Thunar"] $ws4
 assign [class="Org.gnome.Nautilus"] $ws4
 assign [class="Signal"] $ws5
