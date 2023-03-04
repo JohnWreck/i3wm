@@ -48,7 +48,7 @@ bindsym $mod+Shift+Ctrl+s exec systemctl suspend
 #bindsym $mod+d exec --no-startup-id dmenu_run
 
 # Start Rofi
-bindsym $mod+space exec rofi -show drun 
+bindsym $mod+space exec "rofi -modes combi -show combi -combi-modes window,drun"
 bindsym $mod+Shift+space exec --no-startup-id $TERM --class "FZF_Search" -e $HOME/.scripts/fzf_search.sh
 bindsym $mod+a exec rofi -show window 
 
@@ -194,7 +194,7 @@ set $orange-dark	#F18C2C
 set $green-light	#00ff00
 set $green-dark		#808000
 set $gray-light		#D2DAD1
-set $gray-dark		#363636
+set $gray-dark		#3F3F3F
 set $black		    #1C1C1C
 set $white		    #C5C8C6
 
