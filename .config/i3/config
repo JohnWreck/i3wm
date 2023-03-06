@@ -209,7 +209,7 @@ client.urgent		    $gray-dark		$black		    $green-dark 	$green-dark
 #exec --no-startup-id rm $HOME/.config/polybar && ln -s $HOME/.dotfiles/.config/polybar.i3/ $HOME/.config/polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
 
-bindsym $mod+e exec --no-startup-id /usr/bin/thunar
+bindsym $mod+e exec --no-startup-id /usr/bin/thunar; workspace $ws4
 bindsym $mod+Escape exec --no-startup-id /usr/bin/i3lock --nofork -e -c 141414
 bindsym $mod+Shift+Return exec --no-startup-id alacritty --class Tmux -e tmux 
 bindsym $mod+m exec  --no-startup-id /usr/bin/thunderbird
