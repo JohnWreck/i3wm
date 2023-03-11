@@ -192,7 +192,8 @@ bindsym $mod+r mode "resize"
 #set $jellow-dark	#ffdd00
 set $orange-dark	#F18C2C
 set $green-light	#00ff00
-set $green-dark		#808000
+set $green-dark		#787859
+#set $green-dark		#808000
 set $gray-light		#D2DAD1
 set $gray-dark		#3A3A3A
 set $black		    #1C1C1C
@@ -266,6 +267,7 @@ workspace $ws0 output $secondary
 
 # Bind mouse button 2 to kill focused window
 #bindsym --whole-window button2 kill 
+#bindsym button2 exec "rofi -modes combi -show combi -combi-modes window,drun"
 
 # Pop-ups control on fullscreen
 popup_during_fullscreen smart
