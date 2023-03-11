@@ -24,7 +24,7 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 300
+    width = (300, 600)
 
     # The maximum height of a single notification, excluding the frame.
     height = 300
@@ -33,7 +33,7 @@
     origin = top-right
 
     # Offset from the origin
-    offset = 1x34
+    offset = 2x36
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -89,7 +89,8 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#817F7F"
+    #frame_color = "#817F7F"
+    frame_color = "#3A3A3A"
 
     # Define a color for the separator.
     # possible values are:
@@ -111,7 +112,8 @@
 
     ### Text ###
 
-    font = Monospace 9
+    #font = Monospace 9
+    font = Firacode Book 9
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
