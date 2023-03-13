@@ -268,7 +268,7 @@ workspace $ws0 output $secondary
 
 # Bind mouse button 2 to kill focused window
 #bindsym --whole-window button2 kill 
-#bindsym button2 exec "rofi -modes combi -show combi -combi-modes window,drun"
+bindsym button2 exec "rofi -modes combi -show combi -combi-modes window,drun"
 
 # Pop-ups control on fullscreen
 popup_during_fullscreen smart
