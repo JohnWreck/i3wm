@@ -193,12 +193,10 @@ bindsym $mod+r mode "resize"
 set $orange-dark	#F18C2C
 set $green-light	#00ff00
 set $green-dark		#787859
-#set $green-dark		#808000
 set $gray-light		#D2DAD1
 set $gray-dark		#4C4C4C
-#set $gray-dark		#3A3A3A
 set $black		    #1C1C1C
-set $white		    #C5C8C6
+set $white		    #EFEFEF
 
 # Window colors
 #                       border          background      text            indicator
