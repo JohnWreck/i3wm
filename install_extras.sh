@@ -54,8 +54,8 @@ dnf install ${package[*]}
 #dnf config-manager --set-enabled google-chrome
 
 ## Set Suspendlock service
-cp $HOME/.dotfiles/systemd/system/suspendlock@.service /etc/systemd/system/
+cp $HOME/.wdots/systemd/system/suspendlock@.service /etc/systemd/system/
 systemctl enable suspendlock@john.service
 
 ## Set locale
-# cp $HOME/.dotfiles/locale.conf /etc/locale.conf
+# cp $HOME/.wdots/locale.conf /etc/locale.conf

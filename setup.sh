@@ -19,25 +19,25 @@ mv $HOME/.scripts/ $HOME/.scripts.bak/ 2>/dev/null
 mv $HOME/.tmux.conf $HOME/.tmux.conf.bak 2>/dev/null 
 echo "Backup done."
 
-#ln -s $HOME/.dotfiles/.config/polybar.bspwm/ $HOME/.config/polybar
-ln -s $HOME/.dotfiles/.bashrc $HOME/.bashrc
-ln -s $HOME/.dotfiles/.config/alacritty/ $HOME/.config/alacritty
-ln -s $HOME/.dotfiles/.config/bspwm/ $HOME/.config/bspwm 
-ln -s $HOME/.dotfiles/.config/dunst/ $HOME/.config/dunst
-ln -s $HOME/.dotfiles/.config/flameshot/ $HOME/.config/flameshot
-ln -s $HOME/.dotfiles/.config/i3/ $HOME/.config/i3 
-ln -s $HOME/.dotfiles/.config/kitty/ $HOME/.config/kitty
-ln -s $HOME/.dotfiles/.config/mimeapps.list $HOME/.config/mimeapps.list
-ln -s $HOME/.dotfiles/.config/nvim/ $HOME/.config/nvim
-ln -s $HOME/.dotfiles/.config/picom/ $HOME/.config/picom
-ln -s $HOME/.dotfiles/.config/polybar.i3/ $HOME/.config/polybar
-ln -s $HOME/.dotfiles/.config/rofi/ $HOME/.config/rofi
-ln -s $HOME/.dotfiles/.config/sxhkd/ $HOME/.config/sxhkd
-ln -s $HOME/.dotfiles/.fonts/ $HOME/.fonts 
-ln -s $HOME/.dotfiles/.icons/ $HOME/.icons 
-ln -s $HOME/.dotfiles/.profile $HOME/.profile 
-ln -s $HOME/.dotfiles/.scripts/ $HOME/.scripts 
-ln -s $HOME/.dotfiles/.tmux.conf $HOME/.tmux.conf
+#ln -s $HOME/.wdots/.config/polybar.bspwm/ $HOME/.config/polybar
+ln -s $HOME/.wdots/.bashrc $HOME/.bashrc
+ln -s $HOME/.wdots/.config/alacritty/ $HOME/.config/alacritty
+ln -s $HOME/.wdots/.config/bspwm/ $HOME/.config/bspwm 
+ln -s $HOME/.wdots/.config/dunst/ $HOME/.config/dunst
+ln -s $HOME/.wdots/.config/flameshot/ $HOME/.config/flameshot
+ln -s $HOME/.wdots/.config/i3/ $HOME/.config/i3 
+ln -s $HOME/.wdots/.config/kitty/ $HOME/.config/kitty
+ln -s $HOME/.wdots/.config/mimeapps.list $HOME/.config/mimeapps.list
+ln -s $HOME/.wdots/.config/nvim/ $HOME/.config/nvim
+ln -s $HOME/.wdots/.config/picom/ $HOME/.config/picom
+ln -s $HOME/.wdots/.config/polybar.i3/ $HOME/.config/polybar
+ln -s $HOME/.wdots/.config/rofi/ $HOME/.config/rofi
+ln -s $HOME/.wdots/.config/sxhkd/ $HOME/.config/sxhkd
+ln -s $HOME/.wdots/.fonts/ $HOME/.fonts 
+ln -s $HOME/.wdots/.icons/ $HOME/.icons 
+ln -s $HOME/.wdots/.profile $HOME/.profile 
+ln -s $HOME/.wdots/.scripts/ $HOME/.scripts 
+ln -s $HOME/.wdots/.tmux.conf $HOME/.tmux.conf
 echo "Links done."
 
 # Disable Polybar monitor settings for generic configs

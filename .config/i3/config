@@ -204,7 +204,7 @@ client.focused_inactive	$gray-dark	    $black		    $gray-dark	    $green-dark
 client.urgent		    $gray-dark		$black		    $green-dark 	$green-dark
 
 # Exec Polybar
-#exec --no-startup-id rm $HOME/.config/polybar && ln -s $HOME/.dotfiles/.config/polybar.i3/ $HOME/.config/polybar
+#exec --no-startup-id rm $HOME/.config/polybar && ln -s $HOME/.wdots/.config/polybar.i3/ $HOME/.config/polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh 
 
 bindsym $mod+e exec --no-startup-id /usr/bin/thunar; workspace $ws4

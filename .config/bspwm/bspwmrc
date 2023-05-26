@@ -41,7 +41,7 @@ bspc rule -a Zathura state=tiled
 
 # Exec stuff
 
-rm $HOME/.config/polybar && ln -s $HOME/.dotfiles/.config/polybar.bspwm/ $HOME/.config/polybar
+rm $HOME/.config/polybar && ln -s $HOME/.wdots/.config/polybar.bspwm/ $HOME/.config/polybar
 $HOME/.config/polybar/launch.sh
 
 # Fix Mouse cursor on startup 
