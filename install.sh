@@ -7,6 +7,7 @@ package=(
 alacritty
 arandr
 curl
+dunst
 fedora-workstation-repositories
 feh
 fira-code-fonts.noarch

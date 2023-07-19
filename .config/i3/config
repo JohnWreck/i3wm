@@ -33,7 +33,7 @@ font pango:Fira Code Retina 10
 floating_modifier $mod
 
 # Start a terminal
-bindsym $mod+Return exec --no-startup-id $TERM
+bindsym $mod+Return exec --no-startup-id /usr/bin/alacritty
 
 # Kill focused window
 bindsym $mod+Shift+q kill
@@ -47,7 +47,7 @@ bindsym $mod+Shift+Ctrl+s exec systemctl suspend
 
 # Start Rofi
 bindsym $mod+space exec "rofi -modes combi -show combi -combi-modes window,drun"
-bindsym $mod+Shift+space exec --no-startup-id $TERM --class "FZF_Search" -e $HOME/.scripts/fzf_search.sh
+bindsym $mod+Shift+space exec --no-startup-id $TERM --class "FZF_Search" -e $HOME/.scripts/fzf_open.sh
 bindsym $mod+a exec rofi -show window 
 
 #bindsym $mod+s exec --no-startup-id i3-dmenu-desktop
@@ -128,7 +128,7 @@ assign [class="Thunar"] $ws4
 assign [class="Org.gnome.Nautilus"] $ws4
 assign [class="Signal"] $ws5
 assign [class="Virt-manager"] $ws6
-assign [class="Steam"] $ws7
+assign [class="steam"] $ws7
 assign [class="Transmission-gtk"] $ws8
 
 # Switch to workspace
@@ -222,7 +222,7 @@ bindsym Print exec --no-startup-id /usr/bin/flameshot gui
 #exec_always --no-startup-id alttab -d 2 -w 1 -fg '#d0d0d0' -bg "#272727" -frame "#ffaf00" -t 128x125 -i 127x64 -font "xft:Fira Sans Book-9" 
 exec --no-startup-id xinput --set-prop 8 'libinput Accel Speed' -0.9
 exec --no-startup-id xinput --set-prop 8 'libinput High Resolution Wheel Scroll Enabled' 0
-#exec_always --no-startup-id picom
+exec_always --no-startup-id picom
 exec --no-startup-id megasync
 exec --no-startup-id nm-applet
 exec_always --no-startup-id feh --bg-fill  ~/.wallpaper 
