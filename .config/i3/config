@@ -1,13 +1,13 @@
 # Set window settings
 for_window [class="Yad"] floating enable
 for_window [class="MEGAsync"] floating enable
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 3
 #for_window [class="FZF_Search"] floating disable, resize set 1000 600
 
 workspace_layout default
 
 # i3-gaps
-gaps outer 4
+gaps outer 2
 gaps inner 2
 
 # Set mod keys

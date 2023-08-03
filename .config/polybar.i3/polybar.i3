@@ -1,1 +1,0 @@
-/home/john/.wdots/.config/polybar.i3/
