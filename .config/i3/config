@@ -7,8 +7,8 @@ for_window [class="^.*"] border pixel 4
 workspace_layout default
 
 # i3-gaps
-#gaps outer 2
-#gaps inner 2
+gaps outer 4
+gaps inner 4
 
 # Set mod keys
 set $mod Mod4
@@ -192,7 +192,7 @@ set $orange-dark	#F18C2C
 set $green-light	#00ff00
 set $green-dark		#787859
 set $gray-light		#D2DAD1
-set $gray-dark		#4C4C4C
+set $gray-dark		#3C3C3C
 set $black		    #1C1C1C
 set $white		    #EFEFEF
 
