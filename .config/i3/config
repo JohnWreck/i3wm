@@ -47,7 +47,7 @@ bindsym $mod+Shift+Ctrl+s exec systemctl suspend
 
 # Start Rofi
 bindsym $mod+space exec "rofi -modes combi -show combi -combi-modes window,drun"
-bindsym $mod+Shift+space exec --no-startup-id $TERM --class "FZF_Search" -e $HOME/.scripts/fzf_open.sh
+bindsym $mod+Shift+space exec --no-startup-id /usr/bin/alacritty --class "FZF_Search" -e $HOME/.scripts/fzf_open.sh
 bindsym $mod+a exec rofi -show window 
 
 #bindsym $mod+s exec --no-startup-id i3-dmenu-desktop
